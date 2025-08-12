@@ -1,0 +1,4 @@
+2025-08-12 05:39:37,815 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 05:39:37,859 - root - INFO - Data fetcher initialized successfully
+2025-08-12 05:39:37,859 - root - INFO - Fetching data for AAPL
+2025-08-12 05:39:37,860 - root - ERROR - Error fetching data for AAPL: Yahoo API requires curl_cffi session not <class 'requests.sessions.Session'>. Solution: stop setting session, let YF handle.

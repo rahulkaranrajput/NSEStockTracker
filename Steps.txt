@@ -1,0 +1,287 @@
+# Stock Tracker - macOS Application
+
+A comprehensive macOS application for automatically collecting and storing stock market data every 5 minutes during market hours.
+
+## Features
+
+- 📈 **Automated Data Collection**: Fetches OHLCV (Open, High, Low, Close, Volume) data every 5 minutes
+- 🏪 **Multiple Stocks**: Track multiple stock symbols simultaneously  
+- 💾 **Local Storage**: All data stored locally in SQLite database
+- 🕒 **Market Hours Aware**: Automatically pauses during market close
+- 🖥️ **GUI Interface**: Easy-to-use graphical interface
+- 📱 **Console Mode**: Run as background service
+- 📊 **Data Viewing**: View collected data in tabular format
+- 🔄 **Backfill**: Import historical data
+- 🛠️ **Configurable**: Add/remove symbols, adjust settings
+
+## Installation
+
+### Prerequisites
+
+- **macOS** (10.14 or later recommended)
+- **Python 3.8+** installed
+- **Internet connection** for stock data
+
+### Quick Setup
+
+1. **Download/Clone the project:**
+   ```bash
+   git clone <repository-url>
+   cd StockTracker
+   ```
+
+2. **Create virtual environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Test the installation:**
+   ```bash
+   python main.py test
+   ```
+
+## Usage
+
+### GUI Mode (Recommended)
+
+**Start the GUI application:**
+```bash
+python main.py gui
+```
+
+**GUI Features:**
+- **Main Tab**: Start/stop data collection, view status
+- **Data Tab**: View collected stock data for any symbol
+- **Settings Tab**: Add/remove symbols, configure options
+- **Logs Tab**: Monitor application activity
+
+### Console Mode
+
+**Run as background service:**
+```bash
+python main.py console
+```
+
+**Other console commands:**
+```bash
+# Check application status
+python main.py status
+
+# Test data connection
+python main.py test
+
+# Backfill historical data (last 5 days)
+python main.py backfill --days 5
+
+# Track specific symbols only
+python main.py gui --symbols AAPL GOOGL MSFT
+```
+
+## Default Tracked Symbols
+
+- **AAPL** - Apple Inc.
+- **GOOGL** - Alphabet Inc.
+- **MSFT** - Microsoft Corporation
+- **TSLA** - Tesla Inc.
+- **AMZN** - Amazon.com Inc.
+- **NVDA** - NVIDIA Corporation
+- **META** - Meta Platforms Inc.
+
+You can add/remove symbols through the GUI or by modifying `config.py`.
+
+## Data Collection
+
+### Schedule
+- **Frequency**: Every 5 minutes
+- **Market Hours**: 9:30 AM - 4:00 PM Eastern Time
+- **Trading Days**: Monday - Friday
+- **Data Source**: Yahoo Finance via `yfinance` library
+
+### Data Format
+Each record contains:
+- **Symbol**: Stock ticker (e.g., AAPL)
+- **Timestamp**: Date and time of the candle
+- **Open**: Opening price
+- **High**: Highest price in 5-min period
+- **Low**: Lowest price in 5-min period
+- **Close**: Closing price
+- **Volume**: Number of shares traded
+
+## Building macOS App
+
+Create a standalone `.app` file that doesn't require Python installation:
+
+```bash
+# Build the macOS application
+python build_app.py
+
+# Clean build files
+python build_app.py clean
+```
+
+The app will be created in `dist/StockTracker.app` and can be:
+- Double-clicked to run
+- Dragged to Applications folder
+- Distributed to other Macs
+
+## File Structure
+
+```
+StockTracker/
+├── main.py              # Main application entry
+├── gui.py              # GUI interface
+├── data_fetcher.py     # Stock data fetching
+├── database.py         # Database operations
+├── scheduler.py        # Background scheduling
+├── config.py          # Configuration settings
+├── models.py          # Data models
+├── requirements.txt    # Python dependencies
+├── build_app.py       # Build script
+├── README.md          # This documentation
+└── data/
+    ├── stocks.db      # SQLite database (auto-created)
+    └── stock_tracker.log  # Application logs
+```
+
+## Configuration
+
+Edit `config.py` to customize:
+
+```python
+# Symbols to track
+STOCK_SYMBOLS = ['AAPL', 'GOOGL', 'MSFT']
+
+# Data collection interval
+FETCH_INTERVAL_MINUTES = 5
+
+# Market hours (Eastern Time)
+MARKET_OPEN_TIME = time(9, 30)   # 9:30 AM
+MARKET_CLOSE_TIME = time(16, 0)  # 4:00 PM
+
+# Data retention
+KEEP_DATA_DAYS = 30  # Keep data for 30 days
+```
+
+## Database Access
+
+The SQLite database is stored at `data/stocks.db`. You can access it with:
+
+**Python:**
+```python
+import sqlite3
+conn = sqlite3.connect('data/stocks.db')
+df = pd.read_sql_query("SELECT * FROM stock_candles WHERE symbol='AAPL'", conn)
+```
+
+**Command line:**
+```bash
+sqlite3 data/stocks.db
+.tables
+SELECT * FROM stock_candles LIMIT 10;
+```
+
+## Troubleshooting
+
+### Common Issues
+
+**1. "No module named 'yfinance'"**
+```bash
+pip install yfinance pandas schedule
+```
+
+**2. "Permission denied" when building app**
+```bash
+chmod +x build_app.py
+python build_app.py
+```
+
+**3. "No data returned" error**
+- Check internet connection
+- Verify stock symbols are correct
+- Check if market is open
+
+**4. GUI doesn't start**
+- Ensure tkinter is installed: `python -m tkinter`
+- Try console mode: `python main.py console`
+
+### Logs
+
+Check application logs for detailed error information:
+- **GUI**: View in the "Logs" tab
+- **File**: `data/stock_tracker.log`
+- **Console**: Printed to terminal
+
+### Getting Help
+
+1. Check the logs for error messages
+2. Test connection: `python main.py test`
+3. Verify Python version: `python --version` (3.8+ required)
+4. Check dependencies: `pip list`
+
+## Technical Details
+
+### Data Source
+- **Provider**: Yahoo Finance
+- **Library**: yfinance
+- **Rate Limits**: Reasonable delays built-in
+- **Reliability**: Handles connection errors and retries
+
+### Storage
+- **Database**: SQLite (serverless, file-based)
+- **Schema**: Optimized for time-series data
+- **Indexing**: Fast queries by symbol and timestamp
+- **Backup**: Simple file copy of `data/stocks.db`
+
+### Performance
+- **Memory Usage**: ~50-100 MB during operation  
+- **Disk Usage**: ~1-5 MB per symbol per month
+- **CPU Usage**: Minimal (mostly idle)
+- **Network**: Light usage (5-minute intervals)
+
+## Advanced Usage
+
+### Custom Scheduling
+Modify `scheduler.py` to change collection frequency:
+```python
+# Collect every minute during market hours
+schedule.every(1).minutes.do(self._collect_data)
+```
+
+### Data Export
+Export data to CSV:
+```python
+from database import StockDatabase
+db = StockDatabase()
+candles = db.get_candles_for_symbol('AAPL', limit=1000)
+
+import pandas as pd
+df = pd.DataFrame([c.to_dict() for c in candles])
+df.to_csv('aapl_data.csv', index=False)
+```
+
+### API Integration
+Use the data in your own applications:
+```python
+from database import StockDatabase
+db = StockDatabase()
+latest_price = db.get_latest_candle('AAPL')
+print(f"AAPL current price: ${latest_price.close_price}")
+```
+
+## License
+
+This project is for educational and personal use. Please respect Yahoo Finance's terms of service when using their data.
+
+## Contributing
+
+Feel free to submit issues, suggestions, or improvements!
+
+---
+
+**Happy Trading! 📈**
