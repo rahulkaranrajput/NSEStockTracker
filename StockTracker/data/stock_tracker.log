@@ -327,3 +327,1581 @@
 2025-08-12 10:33:30,258 - root - INFO - Starting Stock Tracker GUI
 2025-08-12 10:33:32,178 - root - INFO - Data scheduler started (market hours only: True)
 2025-08-12 10:33:32,179 - root - INFO - Stock tracking started from GUI
+2025-08-12 10:38:32,339 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 10:38:32
+2025-08-12 10:38:32,341 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 10:38:33,664 - root - INFO - Successfully fetched data for RELIANCE.NS: $1391.70
+2025-08-12 10:38:33,894 - root - INFO - Fetching data for TCS.NS
+2025-08-12 10:38:34,127 - root - INFO - Successfully fetched data for TCS.NS: $3061.00
+2025-08-12 10:38:34,233 - root - INFO - Fetching data for INFY.NS
+2025-08-12 10:38:34,488 - root - INFO - Successfully fetched data for INFY.NS: $1433.70
+2025-08-12 10:38:34,595 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 10:38:34,731 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1985.40
+2025-08-12 10:38:34,836 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 10:38:35,093 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1428.00
+2025-08-12 10:38:35,199 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 10:38:35,326 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2521.10
+2025-08-12 10:38:35,432 - root - INFO - Fetching data for ITC.NS
+2025-08-12 10:38:35,730 - root - INFO - Successfully fetched data for ITC.NS: $418.55
+2025-08-12 10:38:35,836 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 10:38:35,991 - root - INFO - Successfully fetched data for SBIN.NS: $821.55
+2025-08-12 10:38:36,097 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 10:38:36,280 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1857.50
+2025-08-12 10:38:36,386 - root - INFO - Fetching data for LT.NS
+2025-08-12 10:38:36,534 - root - INFO - Successfully fetched data for LT.NS: $3706.80
+2025-08-12 10:38:36,705 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 10:38:36,758 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 10:35:00+05:30: O:1390.80 H:1392.70 L:1390.10 C:1391.70 V:33374
+2025-08-12 10:38:36,762 - root - INFO - Saved candle: TCS.NS 2025-08-12 10:35:00+05:30: O:3055.20 H:3062.10 L:3055.00 C:3061.00 V:17558
+2025-08-12 10:38:36,771 - root - INFO - Saved candle: INFY.NS 2025-08-12 10:35:00+05:30: O:1431.90 H:1434.00 L:1431.70 C:1433.70 V:36234
+2025-08-12 10:38:36,780 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 10:35:00+05:30: O:1983.40 H:1985.40 L:1983.40 C:1985.40 V:8652
+2025-08-12 10:38:36,787 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 10:35:00+05:30: O:1426.70 H:1428.50 L:1426.30 C:1428.00 V:11175
+2025-08-12 10:38:36,794 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 10:35:00+05:30: O:2522.00 H:2524.60 L:2520.10 C:2521.10 V:5145
+2025-08-12 10:38:36,800 - root - INFO - Saved candle: ITC.NS 2025-08-12 10:35:00+05:30: O:418.20 H:418.60 L:418.20 C:418.55 V:36912
+2025-08-12 10:38:36,805 - root - INFO - Saved candle: SBIN.NS 2025-08-12 10:35:00+05:30: O:821.50 H:822.05 L:821.50 C:821.55 V:38743
+2025-08-12 10:38:36,810 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 10:35:00+05:30: O:1858.70 H:1860.00 L:1857.50 C:1857.50 V:16525
+2025-08-12 10:38:36,815 - root - INFO - Saved candle: LT.NS 2025-08-12 10:35:00+05:30: O:3707.60 H:3715.60 L:3706.80 C:3706.80 V:26452
+2025-08-12 10:38:36,819 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 10:43:36,989 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 10:43:36
+2025-08-12 10:43:36,992 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 10:43:37,523 - root - INFO - Successfully fetched data for RELIANCE.NS: $1393.20
+2025-08-12 10:43:37,628 - root - INFO - Fetching data for TCS.NS
+2025-08-12 10:43:37,762 - root - INFO - Successfully fetched data for TCS.NS: $3058.30
+2025-08-12 10:43:37,867 - root - INFO - Fetching data for INFY.NS
+2025-08-12 10:43:38,057 - root - INFO - Successfully fetched data for INFY.NS: $1431.90
+2025-08-12 10:43:38,172 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 10:43:38,318 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1985.60
+2025-08-12 10:43:38,421 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 10:43:38,553 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1427.10
+2025-08-12 10:43:38,658 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 10:43:38,796 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2519.70
+2025-08-12 10:43:38,902 - root - INFO - Fetching data for ITC.NS
+2025-08-12 10:43:39,089 - root - INFO - Successfully fetched data for ITC.NS: $418.45
+2025-08-12 10:43:39,194 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 10:43:39,317 - root - INFO - Successfully fetched data for SBIN.NS: $822.05
+2025-08-12 10:43:39,422 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 10:43:39,555 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1858.50
+2025-08-12 10:43:39,661 - root - INFO - Fetching data for LT.NS
+2025-08-12 10:43:39,788 - root - INFO - Successfully fetched data for LT.NS: $3706.20
+2025-08-12 10:43:39,894 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 10:43:39,953 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 10:40:00+05:30: O:1392.20 H:1393.90 L:1391.60 C:1393.20 V:24773
+2025-08-12 10:43:39,959 - root - INFO - Saved candle: TCS.NS 2025-08-12 10:40:00+05:30: O:3060.40 H:3061.00 L:3058.10 C:3058.30 V:11691
+2025-08-12 10:43:39,966 - root - INFO - Saved candle: INFY.NS 2025-08-12 10:40:00+05:30: O:1433.70 H:1434.70 L:1431.90 C:1431.90 V:44437
+2025-08-12 10:43:39,969 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 10:40:00+05:30: O:1986.10 H:1987.00 L:1985.10 C:1985.60 V:14233
+2025-08-12 10:43:39,973 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 10:40:00+05:30: O:1427.60 H:1428.30 L:1427.10 C:1427.10 V:8977
+2025-08-12 10:43:39,978 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 10:40:00+05:30: O:2521.50 H:2522.00 L:2518.60 C:2519.70 V:2653
+2025-08-12 10:43:39,983 - root - INFO - Saved candle: ITC.NS 2025-08-12 10:40:00+05:30: O:418.50 H:418.55 L:418.45 C:418.45 V:53850
+2025-08-12 10:43:39,988 - root - INFO - Saved candle: SBIN.NS 2025-08-12 10:40:00+05:30: O:821.40 H:822.25 L:821.40 C:822.05 V:31594
+2025-08-12 10:43:39,992 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 10:40:00+05:30: O:1856.70 H:1859.60 L:1856.50 C:1858.50 V:25411
+2025-08-12 10:43:39,997 - root - INFO - Saved candle: LT.NS 2025-08-12 10:40:00+05:30: O:3706.00 H:3709.50 L:3703.00 C:3706.20 V:11390
+2025-08-12 10:43:40,001 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 10:48:40,166 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 10:48:40
+2025-08-12 10:48:40,170 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 10:48:41,472 - root - INFO - Successfully fetched data for RELIANCE.NS: $1392.50
+2025-08-12 10:48:41,578 - root - INFO - Fetching data for TCS.NS
+2025-08-12 10:48:41,910 - root - INFO - Successfully fetched data for TCS.NS: $3055.30
+2025-08-12 10:48:42,015 - root - INFO - Fetching data for INFY.NS
+2025-08-12 10:48:42,350 - root - INFO - Successfully fetched data for INFY.NS: $1430.70
+2025-08-12 10:48:42,470 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 10:48:42,807 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1985.00
+2025-08-12 10:48:42,913 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 10:48:43,260 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1426.80
+2025-08-12 10:48:43,367 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 10:48:43,836 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2515.50
+2025-08-12 10:48:43,942 - root - INFO - Fetching data for ITC.NS
+2025-08-12 10:48:44,275 - root - INFO - Successfully fetched data for ITC.NS: $418.20
+2025-08-12 10:48:44,381 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 10:48:44,837 - root - INFO - Successfully fetched data for SBIN.NS: $822.25
+2025-08-12 10:48:44,943 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 10:48:45,375 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1858.00
+2025-08-12 10:48:45,481 - root - INFO - Fetching data for LT.NS
+2025-08-12 10:48:45,839 - root - INFO - Successfully fetched data for LT.NS: $3702.50
+2025-08-12 10:48:45,945 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 10:48:45,950 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 10:45:00+05:30: O:1391.50 H:1392.50 L:1390.30 C:1392.50 V:26363
+2025-08-12 10:48:45,955 - root - INFO - Saved candle: TCS.NS 2025-08-12 10:45:00+05:30: O:3055.00 H:3055.30 L:3053.20 C:3055.30 V:10408
+2025-08-12 10:48:45,965 - root - INFO - Saved candle: INFY.NS 2025-08-12 10:45:00+05:30: O:1429.50 H:1430.70 L:1428.60 C:1430.70 V:39862
+2025-08-12 10:48:45,973 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 10:45:00+05:30: O:1984.20 H:1985.00 L:1982.50 C:1985.00 V:15761
+2025-08-12 10:48:45,980 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 10:45:00+05:30: O:1426.50 H:1426.90 L:1425.00 C:1426.80 V:12311
+2025-08-12 10:48:45,987 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 10:45:00+05:30: O:2517.70 H:2517.70 L:2513.10 C:2515.50 V:4509
+2025-08-12 10:48:45,993 - root - INFO - Saved candle: ITC.NS 2025-08-12 10:45:00+05:30: O:418.15 H:418.25 L:418.15 C:418.20 V:161784
+2025-08-12 10:48:45,999 - root - INFO - Saved candle: SBIN.NS 2025-08-12 10:45:00+05:30: O:821.95 H:822.25 L:821.50 C:822.25 V:50181
+2025-08-12 10:48:46,003 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 10:45:00+05:30: O:1858.40 H:1858.50 L:1857.20 C:1858.00 V:38172
+2025-08-12 10:48:46,008 - root - INFO - Saved candle: LT.NS 2025-08-12 10:45:00+05:30: O:3702.10 H:3702.80 L:3700.00 C:3702.50 V:15321
+2025-08-12 10:48:46,012 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 10:53:46,194 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 10:53:46
+2025-08-12 10:53:46,196 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 10:53:46,794 - root - INFO - Successfully fetched data for RELIANCE.NS: $1391.60
+2025-08-12 10:53:46,899 - root - INFO - Fetching data for TCS.NS
+2025-08-12 10:53:47,037 - root - INFO - Successfully fetched data for TCS.NS: $3054.70
+2025-08-12 10:53:47,142 - root - INFO - Fetching data for INFY.NS
+2025-08-12 10:53:47,269 - root - INFO - Successfully fetched data for INFY.NS: $1431.30
+2025-08-12 10:53:47,370 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 10:53:47,671 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1984.50
+2025-08-12 10:53:47,777 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 10:53:47,918 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1426.30
+2025-08-12 10:53:48,024 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 10:53:48,273 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2514.00
+2025-08-12 10:53:48,378 - root - INFO - Fetching data for ITC.NS
+2025-08-12 10:53:48,514 - root - INFO - Successfully fetched data for ITC.NS: $418.25
+2025-08-12 10:53:48,616 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 10:53:48,747 - root - INFO - Successfully fetched data for SBIN.NS: $822.10
+2025-08-12 10:53:48,853 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 10:53:49,071 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1857.50
+2025-08-12 10:53:49,177 - root - INFO - Fetching data for LT.NS
+2025-08-12 10:53:49,466 - root - INFO - Successfully fetched data for LT.NS: $3701.00
+2025-08-12 10:53:49,572 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 10:53:49,744 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 10:50:00+05:30: O:1391.40 H:1392.40 L:1391.10 C:1391.60 V:14771
+2025-08-12 10:53:49,746 - root - INFO - Saved candle: TCS.NS 2025-08-12 10:50:00+05:30: O:3053.80 H:3056.00 L:3053.20 C:3054.70 V:9316
+2025-08-12 10:53:49,750 - root - INFO - Saved candle: INFY.NS 2025-08-12 10:50:00+05:30: O:1429.30 H:1431.90 L:1429.30 C:1431.30 V:35425
+2025-08-12 10:53:49,753 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 10:50:00+05:30: O:1984.50 H:1985.10 L:1983.60 C:1984.50 V:10074
+2025-08-12 10:53:49,757 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 10:50:00+05:30: O:1425.70 H:1426.50 L:1425.40 C:1426.30 V:9307
+2025-08-12 10:53:49,760 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 10:50:00+05:30: O:2513.40 H:2514.60 L:2513.00 C:2514.00 V:5662
+2025-08-12 10:53:49,763 - root - INFO - Saved candle: ITC.NS 2025-08-12 10:50:00+05:30: O:418.15 H:418.25 L:418.15 C:418.25 V:40194
+2025-08-12 10:53:49,767 - root - INFO - Saved candle: SBIN.NS 2025-08-12 10:50:00+05:30: O:822.10 H:822.25 L:821.65 C:822.10 V:22724
+2025-08-12 10:53:49,770 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 10:50:00+05:30: O:1858.00 H:1858.20 L:1857.50 C:1857.50 V:15138
+2025-08-12 10:53:49,773 - root - INFO - Saved candle: LT.NS 2025-08-12 10:50:00+05:30: O:3701.00 H:3703.50 L:3699.40 C:3701.00 V:5537
+2025-08-12 10:53:49,776 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 10:58:50,046 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 10:58:50
+2025-08-12 10:58:50,050 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 10:58:50,384 - root - INFO - Successfully fetched data for RELIANCE.NS: $1391.70
+2025-08-12 10:58:50,490 - root - INFO - Fetching data for TCS.NS
+2025-08-12 10:58:50,597 - root - INFO - Successfully fetched data for TCS.NS: $3053.10
+2025-08-12 10:58:50,701 - root - INFO - Fetching data for INFY.NS
+2025-08-12 10:58:50,854 - root - INFO - Successfully fetched data for INFY.NS: $1434.10
+2025-08-12 10:58:50,959 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 10:58:51,085 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1983.90
+2025-08-12 10:58:51,190 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 10:58:51,307 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1424.60
+2025-08-12 10:58:51,412 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 10:58:51,658 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2514.10
+2025-08-12 10:58:51,764 - root - INFO - Fetching data for ITC.NS
+2025-08-12 10:58:52,046 - root - INFO - Successfully fetched data for ITC.NS: $418.50
+2025-08-12 10:58:52,151 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 10:58:52,285 - root - INFO - Successfully fetched data for SBIN.NS: $822.65
+2025-08-12 10:58:52,391 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 10:58:52,646 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1857.00
+2025-08-12 10:58:52,752 - root - INFO - Fetching data for LT.NS
+2025-08-12 10:58:52,866 - root - INFO - Successfully fetched data for LT.NS: $3699.00
+2025-08-12 10:58:52,967 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 10:58:52,968 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 10:55:00+05:30: O:1392.00 H:1393.10 L:1391.30 C:1391.70 V:52008
+2025-08-12 10:58:52,970 - root - INFO - Saved candle: TCS.NS 2025-08-12 10:55:00+05:30: O:3053.00 H:3055.10 L:3051.50 C:3053.10 V:18621
+2025-08-12 10:58:52,974 - root - INFO - Saved candle: INFY.NS 2025-08-12 10:55:00+05:30: O:1431.80 H:1434.90 L:1431.70 C:1434.10 V:108593
+2025-08-12 10:58:52,978 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 10:55:00+05:30: O:1985.10 H:1986.50 L:1983.80 C:1983.90 V:107116
+2025-08-12 10:58:52,983 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 10:55:00+05:30: O:1426.30 H:1428.00 L:1424.60 C:1424.60 V:57998
+2025-08-12 10:58:52,986 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 10:55:00+05:30: O:2513.10 H:2517.20 L:2513.10 C:2514.10 V:7200
+2025-08-12 10:58:52,989 - root - INFO - Saved candle: ITC.NS 2025-08-12 10:55:00+05:30: O:418.35 H:418.65 L:418.35 C:418.50 V:100122
+2025-08-12 10:58:52,992 - root - INFO - Saved candle: SBIN.NS 2025-08-12 10:55:00+05:30: O:822.25 H:822.90 L:822.20 C:822.65 V:78074
+2025-08-12 10:58:52,996 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 10:55:00+05:30: O:1858.00 H:1859.40 L:1857.00 C:1857.00 V:48837
+2025-08-12 10:58:52,999 - root - INFO - Saved candle: LT.NS 2025-08-12 10:55:00+05:30: O:3699.90 H:3702.80 L:3698.10 C:3699.00 V:15375
+2025-08-12 10:58:53,002 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:03:53,208 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 11:03:53
+2025-08-12 11:03:53,212 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:03:53,663 - root - INFO - Successfully fetched data for RELIANCE.NS: $1389.60
+2025-08-12 11:03:53,768 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:03:54,007 - root - INFO - Successfully fetched data for TCS.NS: $3049.10
+2025-08-12 11:03:54,113 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:03:54,269 - root - INFO - Successfully fetched data for INFY.NS: $1432.80
+2025-08-12 11:03:54,374 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:03:54,496 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1981.30
+2025-08-12 11:03:54,598 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:03:54,826 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.50
+2025-08-12 11:03:54,927 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:03:55,038 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2510.50
+2025-08-12 11:03:55,200 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:03:55,313 - root - INFO - Successfully fetched data for ITC.NS: $417.75
+2025-08-12 11:03:55,419 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:03:55,540 - root - INFO - Successfully fetched data for SBIN.NS: $822.10
+2025-08-12 11:03:55,645 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:03:55,783 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1856.10
+2025-08-12 11:03:55,888 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:03:56,028 - root - INFO - Successfully fetched data for LT.NS: $3694.20
+2025-08-12 11:03:56,133 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:03:56,136 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:00:00+05:30: O:1391.20 H:1391.90 L:1389.60 C:1389.60 V:22471
+2025-08-12 11:03:56,141 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:00:00+05:30: O:3052.10 H:3052.70 L:3049.10 C:3049.10 V:21123
+2025-08-12 11:03:56,150 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:00:00+05:30: O:1433.60 H:1434.00 L:1432.20 C:1432.80 V:44176
+2025-08-12 11:03:56,158 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:00:00+05:30: O:1984.00 H:1984.20 L:1981.30 C:1981.30 V:21868
+2025-08-12 11:03:56,164 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:00:00+05:30: O:1425.00 H:1425.00 L:1423.50 C:1423.50 V:8983
+2025-08-12 11:03:56,171 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:00:00+05:30: O:2513.60 H:2513.90 L:2510.50 C:2510.50 V:2114
+2025-08-12 11:03:56,177 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:00:00+05:30: O:418.25 H:418.25 L:417.75 C:417.75 V:192996
+2025-08-12 11:03:56,182 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:00:00+05:30: O:822.40 H:822.70 L:822.10 C:822.10 V:19668
+2025-08-12 11:03:56,187 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:00:00+05:30: O:1856.90 H:1857.00 L:1856.00 C:1856.10 V:22598
+2025-08-12 11:03:56,192 - root - INFO - Saved candle: LT.NS 2025-08-12 11:00:00+05:30: O:3697.30 H:3698.60 L:3694.20 C:3694.20 V:5397
+2025-08-12 11:03:56,196 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:05:13,078 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:05:13,078 - root - INFO - Starting GUI mode
+2025-08-12 11:05:13,349 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:05:13,349 - root - INFO - Database initialized successfully
+2025-08-12 11:05:13,349 - root - INFO - Database initialized successfully
+2025-08-12 11:05:13,412 - root - ERROR - GUI mode failed: cannot use geometry manager "grid" inside ".!notebook.!frame2.!labelframe": pack is already managing its content windows
+2025-08-12 11:05:13,412 - root - ERROR - Application error: cannot use geometry manager "grid" inside ".!notebook.!frame2.!labelframe": pack is already managing its content windows
+2025-08-12 11:05:43,196 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:05:43,196 - root - INFO - Starting GUI mode
+2025-08-12 11:05:43,360 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:05:43,360 - root - INFO - Database initialized successfully
+2025-08-12 11:05:43,360 - root - INFO - Database initialized successfully
+2025-08-12 11:05:43,401 - root - ERROR - GUI mode failed: name 'column_widths' is not defined
+2025-08-12 11:05:43,401 - root - ERROR - Application error: name 'column_widths' is not defined
+2025-08-12 11:06:07,929 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:06:07,929 - root - INFO - Starting GUI mode
+2025-08-12 11:06:08,101 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:06:08,102 - root - INFO - Database initialized successfully
+2025-08-12 11:06:08,102 - root - INFO - Database initialized successfully
+2025-08-12 11:06:08,148 - root - ERROR - GUI mode failed: cannot use geometry manager "grid" inside ".!notebook.!frame2.!labelframe": pack is already managing its content windows
+2025-08-12 11:06:08,148 - root - ERROR - Application error: cannot use geometry manager "grid" inside ".!notebook.!frame2.!labelframe": pack is already managing its content windows
+2025-08-12 11:10:09,945 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:10:09,945 - root - INFO - Starting GUI mode
+2025-08-12 11:10:10,145 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:10:10,145 - root - INFO - Database initialized successfully
+2025-08-12 11:10:10,145 - root - INFO - Database initialized successfully
+2025-08-12 11:10:10,203 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 11:10:13,280 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 11:10:13,280 - root - INFO - Stock tracking started from GUI
+2025-08-12 11:15:13,483 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 11:15:13
+2025-08-12 11:15:13,486 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:15:15,575 - root - INFO - Successfully fetched data for RELIANCE.NS: $1385.50
+2025-08-12 11:15:15,722 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:15:16,078 - root - INFO - Successfully fetched data for TCS.NS: $3050.50
+2025-08-12 11:15:16,183 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:15:16,520 - root - INFO - Successfully fetched data for INFY.NS: $1433.80
+2025-08-12 11:15:16,626 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:15:17,161 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.00
+2025-08-12 11:15:17,330 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:15:17,766 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.70
+2025-08-12 11:15:17,871 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:15:18,217 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2508.00
+2025-08-12 11:15:18,323 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:15:18,675 - root - INFO - Successfully fetched data for ITC.NS: $417.40
+2025-08-12 11:15:18,780 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:15:19,099 - root - INFO - Successfully fetched data for SBIN.NS: $822.80
+2025-08-12 11:15:19,204 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:15:19,547 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.50
+2025-08-12 11:15:19,649 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:15:19,985 - root - INFO - Successfully fetched data for LT.NS: $3691.10
+2025-08-12 11:15:20,090 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:15:20,095 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:15:00+05:30: O:1385.50 H:1385.50 L:1385.50 C:1385.50 V:0
+2025-08-12 11:15:20,098 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:15:00+05:30: O:3050.50 H:3050.50 L:3050.50 C:3050.50 V:0
+2025-08-12 11:15:20,100 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:15:00+05:30: O:1433.80 H:1433.80 L:1433.80 C:1433.80 V:0
+2025-08-12 11:15:20,279 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:15:00+05:30: O:1979.00 H:1979.00 L:1979.00 C:1979.00 V:0
+2025-08-12 11:15:20,330 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:15:00+05:30: O:1423.70 H:1423.70 L:1423.70 C:1423.70 V:0
+2025-08-12 11:15:20,337 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:15:00+05:30: O:2508.00 H:2508.00 L:2508.00 C:2508.00 V:0
+2025-08-12 11:15:20,339 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:15:00+05:30: O:417.40 H:417.40 L:417.40 C:417.40 V:0
+2025-08-12 11:15:20,341 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:15:00+05:30: O:822.80 H:822.80 L:822.80 C:822.80 V:0
+2025-08-12 11:15:20,343 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:15:00+05:30: O:1852.50 H:1852.50 L:1852.50 C:1852.50 V:0
+2025-08-12 11:15:20,345 - root - INFO - Saved candle: LT.NS 2025-08-12 11:15:00+05:30: O:3691.10 H:3691.10 L:3691.10 C:3691.10 V:0
+2025-08-12 11:15:20,345 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:15:48,496 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:15:48,497 - root - INFO - Starting GUI mode
+2025-08-12 11:15:48,686 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:15:48,687 - root - INFO - Database initialized successfully
+2025-08-12 11:15:48,687 - root - INFO - Database initialized successfully
+2025-08-12 11:15:48,745 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 11:15:51,648 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 11:15:51,649 - root - INFO - Stock tracking started from GUI
+2025-08-12 11:16:24,693 - root - INFO - Manual data collection triggered
+2025-08-12 11:16:24,694 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:16:25,674 - root - INFO - Successfully fetched data for RELIANCE.NS: $1386.20
+2025-08-12 11:16:25,779 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:16:25,944 - root - INFO - Successfully fetched data for TCS.NS: $3051.60
+2025-08-12 11:16:26,049 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:16:26,192 - root - INFO - Successfully fetched data for INFY.NS: $1433.50
+2025-08-12 11:16:26,298 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:16:26,430 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.00
+2025-08-12 11:16:26,583 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:16:26,702 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1424.00
+2025-08-12 11:16:26,807 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:16:26,948 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2508.20
+2025-08-12 11:16:27,054 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:16:27,181 - root - INFO - Successfully fetched data for ITC.NS: $417.35
+2025-08-12 11:16:27,287 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:16:27,563 - root - INFO - Successfully fetched data for SBIN.NS: $823.05
+2025-08-12 11:16:27,666 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:16:27,861 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.60
+2025-08-12 11:16:27,967 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:16:28,169 - root - INFO - Successfully fetched data for LT.NS: $3692.60
+2025-08-12 11:16:28,349 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:16:28,373 - root - INFO - Manual collection completed: 0 records saved
+2025-08-12 11:20:51,871 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 11:20:51
+2025-08-12 11:20:51,908 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:20:53,164 - root - INFO - Successfully fetched data for RELIANCE.NS: $1389.00
+2025-08-12 11:20:53,270 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:20:53,616 - root - INFO - Successfully fetched data for TCS.NS: $3051.30
+2025-08-12 11:20:53,819 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:20:54,264 - root - INFO - Successfully fetched data for INFY.NS: $1434.50
+2025-08-12 11:20:54,370 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:20:54,865 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1981.00
+2025-08-12 11:20:54,967 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:20:55,330 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1424.30
+2025-08-12 11:20:55,436 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:20:55,787 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2509.50
+2025-08-12 11:20:55,893 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:20:56,263 - root - INFO - Successfully fetched data for ITC.NS: $417.80
+2025-08-12 11:20:56,367 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:20:56,877 - root - INFO - Successfully fetched data for SBIN.NS: $823.85
+2025-08-12 11:20:56,983 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:20:57,338 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1854.00
+2025-08-12 11:20:57,444 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:20:57,887 - root - INFO - Successfully fetched data for LT.NS: $3694.40
+2025-08-12 11:20:57,993 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:20:57,994 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:20:00+05:30: O:1389.00 H:1389.00 L:1389.00 C:1389.00 V:0
+2025-08-12 11:20:57,996 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:20:00+05:30: O:3051.30 H:3051.30 L:3051.30 C:3051.30 V:0
+2025-08-12 11:20:58,000 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:20:00+05:30: O:1434.50 H:1434.50 L:1434.50 C:1434.50 V:0
+2025-08-12 11:20:58,004 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:20:00+05:30: O:1981.00 H:1981.00 L:1981.00 C:1981.00 V:0
+2025-08-12 11:20:58,008 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:20:00+05:30: O:1424.30 H:1424.30 L:1424.30 C:1424.30 V:0
+2025-08-12 11:20:58,011 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:20:00+05:30: O:2509.50 H:2509.50 L:2509.50 C:2509.50 V:0
+2025-08-12 11:20:58,015 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:20:00+05:30: O:417.80 H:417.80 L:417.80 C:417.80 V:0
+2025-08-12 11:20:58,019 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:20:00+05:30: O:823.85 H:823.85 L:823.85 C:823.85 V:0
+2025-08-12 11:20:58,022 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:20:00+05:30: O:1854.00 H:1854.00 L:1854.00 C:1854.00 V:0
+2025-08-12 11:20:58,025 - root - INFO - Saved candle: LT.NS 2025-08-12 11:20:00+05:30: O:3694.40 H:3694.40 L:3694.40 C:3694.40 V:0
+2025-08-12 11:20:58,028 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:25:58,235 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 11:25:58
+2025-08-12 11:25:58,329 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:25:58,746 - root - INFO - Successfully fetched data for RELIANCE.NS: $1387.60
+2025-08-12 11:25:58,851 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:25:59,070 - root - INFO - Successfully fetched data for TCS.NS: $3052.30
+2025-08-12 11:25:59,176 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:25:59,300 - root - INFO - Successfully fetched data for INFY.NS: $1434.40
+2025-08-12 11:25:59,406 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:25:59,542 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1980.10
+2025-08-12 11:25:59,645 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:25:59,778 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.40
+2025-08-12 11:25:59,883 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:26:00,071 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2508.00
+2025-08-12 11:26:00,177 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:26:00,478 - root - INFO - Successfully fetched data for ITC.NS: $417.65
+2025-08-12 11:26:00,646 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:26:00,880 - root - INFO - Successfully fetched data for SBIN.NS: $824.20
+2025-08-12 11:26:00,986 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:26:01,119 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1853.30
+2025-08-12 11:26:01,225 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:26:01,358 - root - INFO - Successfully fetched data for LT.NS: $3690.00
+2025-08-12 11:26:01,464 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:26:01,550 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:25:00+05:30: O:1387.60 H:1387.60 L:1387.60 C:1387.60 V:0
+2025-08-12 11:26:01,555 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:25:00+05:30: O:3052.30 H:3052.30 L:3052.30 C:3052.30 V:0
+2025-08-12 11:26:01,565 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:25:00+05:30: O:1434.40 H:1434.40 L:1434.40 C:1434.40 V:0
+2025-08-12 11:26:01,573 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:25:00+05:30: O:1980.10 H:1980.10 L:1980.10 C:1980.10 V:0
+2025-08-12 11:26:01,580 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:25:00+05:30: O:1423.40 H:1423.40 L:1423.40 C:1423.40 V:0
+2025-08-12 11:26:01,587 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:25:00+05:30: O:2508.00 H:2508.00 L:2508.00 C:2508.00 V:0
+2025-08-12 11:26:01,593 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:25:00+05:30: O:417.60 H:417.70 L:417.60 C:417.65 V:5320
+2025-08-12 11:26:01,599 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:25:00+05:30: O:824.20 H:824.20 L:824.20 C:824.20 V:0
+2025-08-12 11:26:01,603 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:25:00+05:30: O:1853.40 H:1853.70 L:1853.10 C:1853.30 V:2298
+2025-08-12 11:26:01,608 - root - INFO - Saved candle: LT.NS 2025-08-12 11:25:00+05:30: O:3691.60 H:3692.30 L:3689.00 C:3690.00 V:2270
+2025-08-12 11:26:01,612 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:31:48,684 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 11:31:48
+2025-08-12 11:31:48,772 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:31:49,625 - root - INFO - Successfully fetched data for RELIANCE.NS: $1388.00
+2025-08-12 11:31:49,736 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:31:49,851 - root - INFO - Successfully fetched data for TCS.NS: $3052.10
+2025-08-12 11:31:49,961 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:31:50,199 - root - INFO - Successfully fetched data for INFY.NS: $1433.30
+2025-08-12 11:31:50,364 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:31:50,502 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.00
+2025-08-12 11:31:50,613 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:31:50,796 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.90
+2025-08-12 11:31:50,908 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:31:51,215 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2506.30
+2025-08-12 11:31:51,378 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:31:51,600 - root - INFO - Successfully fetched data for ITC.NS: $417.30
+2025-08-12 11:31:51,710 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:31:51,842 - root - INFO - Successfully fetched data for SBIN.NS: $824.30
+2025-08-12 11:31:51,953 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:31:52,216 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.80
+2025-08-12 11:31:52,326 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:31:52,606 - root - INFO - Successfully fetched data for LT.NS: $3694.60
+2025-08-12 11:31:52,716 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:31:52,885 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:30:00+05:30: O:1387.00 H:1388.50 L:1387.00 C:1388.00 V:11051
+2025-08-12 11:31:52,890 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:30:00+05:30: O:3051.10 H:3052.60 L:3051.10 C:3052.10 V:2760
+2025-08-12 11:31:52,900 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:30:00+05:30: O:1433.00 H:1434.00 L:1433.00 C:1433.30 V:8234
+2025-08-12 11:31:52,908 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:30:00+05:30: O:1979.10 H:1979.50 L:1979.00 C:1979.00 V:9371
+2025-08-12 11:31:52,915 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:30:00+05:30: O:1423.40 H:1424.00 L:1423.20 C:1423.90 V:8250
+2025-08-12 11:31:52,921 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:30:00+05:30: O:2506.50 H:2508.10 L:2506.10 C:2506.30 V:1819
+2025-08-12 11:31:52,927 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:30:00+05:30: O:417.25 H:417.50 L:417.25 C:417.30 V:14858
+2025-08-12 11:31:52,933 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:30:00+05:30: O:824.20 H:824.40 L:824.00 C:824.30 V:11186
+2025-08-12 11:31:52,938 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:30:00+05:30: O:1852.40 H:1853.30 L:1852.30 C:1852.80 V:12039
+2025-08-12 11:31:52,943 - root - INFO - Saved candle: LT.NS 2025-08-12 11:30:00+05:30: O:3693.30 H:3695.00 L:3692.50 C:3694.60 V:2622
+2025-08-12 11:31:52,947 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:40:34,780 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 11:40:34
+2025-08-12 11:40:34,781 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:40:35,619 - root - INFO - Successfully fetched data for RELIANCE.NS: $1388.00
+2025-08-12 11:40:35,732 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:40:35,873 - root - INFO - Successfully fetched data for TCS.NS: $3051.30
+2025-08-12 11:40:35,976 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:40:36,100 - root - INFO - Successfully fetched data for INFY.NS: $1432.60
+2025-08-12 11:40:36,206 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:40:36,372 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.60
+2025-08-12 11:40:36,478 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:40:36,819 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.50
+2025-08-12 11:40:36,924 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:40:37,246 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2505.00
+2025-08-12 11:40:37,352 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:40:37,484 - root - INFO - Successfully fetched data for ITC.NS: $417.00
+2025-08-12 11:40:37,590 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:40:37,780 - root - INFO - Successfully fetched data for SBIN.NS: $824.25
+2025-08-12 11:40:37,886 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:40:38,177 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1853.10
+2025-08-12 11:40:38,283 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:40:38,406 - root - INFO - Successfully fetched data for LT.NS: $3692.80
+2025-08-12 11:40:38,511 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:40:38,650 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:40:00+05:30: O:1388.00 H:1388.00 L:1388.00 C:1388.00 V:0
+2025-08-12 11:40:38,655 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:40:00+05:30: O:3051.30 H:3051.30 L:3051.30 C:3051.30 V:0
+2025-08-12 11:40:38,665 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:40:00+05:30: O:1432.60 H:1432.60 L:1432.60 C:1432.60 V:0
+2025-08-12 11:40:38,672 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:40:00+05:30: O:1979.60 H:1979.60 L:1979.60 C:1979.60 V:0
+2025-08-12 11:40:38,679 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:40:00+05:30: O:1423.50 H:1423.50 L:1423.50 C:1423.50 V:0
+2025-08-12 11:40:38,686 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:40:00+05:30: O:2505.00 H:2505.00 L:2505.00 C:2505.00 V:0
+2025-08-12 11:40:38,692 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:40:00+05:30: O:417.00 H:417.00 L:417.00 C:417.00 V:0
+2025-08-12 11:40:38,697 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:40:00+05:30: O:824.25 H:824.25 L:824.25 C:824.25 V:0
+2025-08-12 11:40:38,702 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:40:00+05:30: O:1853.10 H:1853.10 L:1853.10 C:1853.10 V:0
+2025-08-12 11:40:38,707 - root - INFO - Saved candle: LT.NS 2025-08-12 11:40:00+05:30: O:3692.80 H:3692.80 L:3692.80 C:3692.80 V:0
+2025-08-12 11:40:38,711 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 11:43:34,453 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:43:34,454 - root - INFO - Starting GUI mode
+2025-08-12 11:43:34,664 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:43:34,666 - root - INFO - Database initialized successfully
+2025-08-12 11:43:34,667 - root - INFO - Database initialized successfully
+2025-08-12 11:43:34,736 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 11:43:44,328 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 11:43:44,329 - root - INFO - Stock tracking started from GUI
+2025-08-12 11:44:10,314 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:44:10,315 - root - INFO - Starting GUI mode
+2025-08-12 11:44:10,508 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:44:10,508 - root - INFO - Database initialized successfully
+2025-08-12 11:44:10,508 - root - INFO - Database initialized successfully
+2025-08-12 11:44:10,570 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 11:44:14,673 - root - INFO - Manual data collection triggered
+2025-08-12 11:44:14,675 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:44:15,658 - root - INFO - Successfully fetched data for RELIANCE.NS: $1387.80
+2025-08-12 11:44:15,834 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:44:15,960 - root - INFO - Successfully fetched data for TCS.NS: $3049.10
+2025-08-12 11:44:16,066 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:44:16,259 - root - INFO - Successfully fetched data for INFY.NS: $1431.20
+2025-08-12 11:44:16,365 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:44:16,649 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.20
+2025-08-12 11:44:16,754 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:44:17,069 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1424.00
+2025-08-12 11:44:17,175 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:44:17,338 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2506.50
+2025-08-12 11:44:17,446 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:44:17,571 - root - INFO - Successfully fetched data for ITC.NS: $417.05
+2025-08-12 11:44:17,677 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:44:17,815 - root - INFO - Successfully fetched data for SBIN.NS: $824.45
+2025-08-12 11:44:17,921 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:44:18,041 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.60
+2025-08-12 11:44:18,146 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:44:18,270 - root - INFO - Successfully fetched data for LT.NS: $3692.50
+2025-08-12 11:44:18,458 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:44:18,557 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:40:00+05:30: O:1387.90 H:1388.50 L:1387.30 C:1387.80 V:23072
+2025-08-12 11:44:18,563 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:40:00+05:30: O:3051.90 H:3052.00 L:3048.40 C:3049.10 V:40500
+2025-08-12 11:44:18,573 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:40:00+05:30: O:1432.60 H:1433.00 L:1430.50 C:1431.20 V:46607
+2025-08-12 11:44:18,581 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:40:00+05:30: O:1979.50 H:1980.00 L:1978.60 C:1979.20 V:21015
+2025-08-12 11:44:18,587 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:40:00+05:30: O:1423.80 H:1424.00 L:1423.50 C:1424.00 V:10250
+2025-08-12 11:44:18,594 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:40:00+05:30: O:2506.10 H:2510.00 L:2504.30 C:2506.50 V:5119
+2025-08-12 11:44:18,600 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:40:00+05:30: O:417.00 H:417.05 L:416.95 C:417.05 V:67039
+2025-08-12 11:44:18,606 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:40:00+05:30: O:823.90 H:824.50 L:823.90 C:824.45 V:50022
+2025-08-12 11:44:18,611 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:40:00+05:30: O:1853.00 H:1853.40 L:1852.20 C:1852.60 V:20006
+2025-08-12 11:44:18,615 - root - INFO - Saved candle: LT.NS 2025-08-12 11:40:00+05:30: O:3693.10 H:3694.60 L:3691.50 C:3692.50 V:6177
+2025-08-12 11:44:18,619 - root - INFO - Manual collection completed: 10 records saved
+2025-08-12 11:58:11,640 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 11:58:11,641 - root - INFO - Starting GUI mode
+2025-08-12 11:58:11,851 - root - INFO - Data fetcher initialized successfully
+2025-08-12 11:58:11,852 - root - INFO - Database initialized successfully
+2025-08-12 11:58:11,852 - root - INFO - Database initialized successfully
+2025-08-12 11:58:11,925 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 11:58:17,285 - root - ERROR - Error refreshing data: fromisoformat: argument must be str
+2025-08-12 11:58:18,308 - root - ERROR - Error refreshing data: fromisoformat: argument must be str
+2025-08-12 11:58:19,140 - root - ERROR - Error refreshing data: fromisoformat: argument must be str
+2025-08-12 11:58:26,792 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 11:58:26,793 - root - INFO - Stock tracking started from GUI
+2025-08-12 11:58:29,107 - root - ERROR - Error refreshing data: fromisoformat: argument must be str
+2025-08-12 11:58:32,150 - root - INFO - Manual data collection triggered
+2025-08-12 11:58:32,151 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 11:58:34,309 - root - INFO - Successfully fetched data for RELIANCE.NS: $1384.50
+2025-08-12 11:58:34,507 - root - INFO - Fetching data for TCS.NS
+2025-08-12 11:58:34,847 - root - INFO - Successfully fetched data for TCS.NS: $3051.90
+2025-08-12 11:58:34,952 - root - INFO - Fetching data for INFY.NS
+2025-08-12 11:58:35,336 - root - INFO - Successfully fetched data for INFY.NS: $1429.90
+2025-08-12 11:58:35,511 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 11:58:35,938 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1980.40
+2025-08-12 11:58:36,043 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 11:58:36,546 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.80
+2025-08-12 11:58:36,651 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 11:58:36,983 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2503.40
+2025-08-12 11:58:37,119 - root - INFO - Fetching data for ITC.NS
+2025-08-12 11:58:37,454 - root - INFO - Successfully fetched data for ITC.NS: $417.00
+2025-08-12 11:58:37,722 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 11:58:38,152 - root - INFO - Successfully fetched data for SBIN.NS: $824.20
+2025-08-12 11:58:38,258 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 11:58:38,755 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.10
+2025-08-12 11:58:38,926 - root - INFO - Fetching data for LT.NS
+2025-08-12 11:58:39,246 - root - INFO - Successfully fetched data for LT.NS: $3692.80
+2025-08-12 11:58:39,351 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 11:58:39,425 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 11:55:00+05:30: O:1384.30 H:1384.50 L:1383.20 C:1384.50 V:31915
+2025-08-12 11:58:39,427 - root - INFO - Saved candle: TCS.NS 2025-08-12 11:55:00+05:30: O:3050.70 H:3052.00 L:3050.00 C:3051.90 V:8086
+2025-08-12 11:58:39,434 - root - INFO - Saved candle: INFY.NS 2025-08-12 11:55:00+05:30: O:1430.20 H:1431.00 L:1429.70 C:1429.90 V:23852
+2025-08-12 11:58:39,440 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 11:55:00+05:30: O:1979.00 H:1980.40 L:1978.90 C:1980.40 V:18262
+2025-08-12 11:58:39,445 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 11:55:00+05:30: O:1423.80 H:1424.20 L:1423.50 C:1423.80 V:13182
+2025-08-12 11:58:39,451 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 11:55:00+05:30: O:2502.00 H:2504.30 L:2501.40 C:2503.40 V:3550
+2025-08-12 11:58:39,455 - root - INFO - Saved candle: ITC.NS 2025-08-12 11:55:00+05:30: O:416.95 H:417.00 L:416.95 C:417.00 V:35770
+2025-08-12 11:58:39,460 - root - INFO - Saved candle: SBIN.NS 2025-08-12 11:55:00+05:30: O:824.00 H:824.30 L:823.80 C:824.20 V:40422
+2025-08-12 11:58:39,464 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 11:55:00+05:30: O:1850.10 H:1852.10 L:1850.00 C:1852.10 V:28094
+2025-08-12 11:58:39,468 - root - INFO - Saved candle: LT.NS 2025-08-12 11:55:00+05:30: O:3688.00 H:3692.80 L:3687.80 C:3692.80 V:17528
+2025-08-12 11:58:39,471 - root - INFO - Manual collection completed: 10 records saved
+2025-08-12 11:58:43,663 - root - ERROR - Error refreshing data: fromisoformat: argument must be str
+2025-08-12 12:03:26,990 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 12:03:26
+2025-08-12 12:03:26,993 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:03:27,575 - root - INFO - Successfully fetched data for RELIANCE.NS: $1383.60
+2025-08-12 12:03:27,709 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:03:27,839 - root - INFO - Successfully fetched data for TCS.NS: $3049.30
+2025-08-12 12:03:27,941 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:03:28,068 - root - INFO - Successfully fetched data for INFY.NS: $1429.60
+2025-08-12 12:03:28,174 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:03:28,297 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.40
+2025-08-12 12:03:28,402 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:03:28,539 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.50
+2025-08-12 12:03:28,645 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:03:28,813 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2495.80
+2025-08-12 12:03:28,918 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:03:29,049 - root - INFO - Successfully fetched data for ITC.NS: $416.75
+2025-08-12 12:03:29,315 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:03:29,445 - root - INFO - Successfully fetched data for SBIN.NS: $824.30
+2025-08-12 12:03:29,548 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:03:29,746 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1853.20
+2025-08-12 12:03:29,850 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:03:30,157 - root - INFO - Successfully fetched data for LT.NS: $3688.00
+2025-08-12 12:03:30,263 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:03:30,264 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:00:00+05:30: O:1384.80 H:1384.90 L:1383.20 C:1383.60 V:29788
+2025-08-12 12:03:30,266 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:00:00+05:30: O:3051.10 H:3051.60 L:3048.80 C:3049.30 V:5490
+2025-08-12 12:03:30,272 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:00:00+05:30: O:1429.50 H:1430.20 L:1429.50 C:1429.60 V:19898
+2025-08-12 12:03:30,276 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:00:00+05:30: O:1980.80 H:1981.00 L:1979.10 C:1979.40 V:75696
+2025-08-12 12:03:30,280 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:00:00+05:30: O:1423.20 H:1423.90 L:1423.20 C:1423.50 V:15614
+2025-08-12 12:03:30,285 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:00:00+05:30: O:2501.50 H:2502.10 L:2495.80 C:2495.80 V:3305
+2025-08-12 12:03:30,289 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:00:00+05:30: O:416.95 H:417.00 L:416.45 C:416.75 V:123432
+2025-08-12 12:03:30,293 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:00:00+05:30: O:824.20 H:824.30 L:823.85 C:824.30 V:61740
+2025-08-12 12:03:30,296 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:00:00+05:30: O:1852.90 H:1853.70 L:1852.00 C:1853.20 V:17577
+2025-08-12 12:03:30,300 - root - INFO - Saved candle: LT.NS 2025-08-12 12:00:00+05:30: O:3692.20 H:3693.00 L:3688.00 C:3688.00 V:5671
+2025-08-12 12:03:30,303 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 12:05:11,624 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:05:11,625 - root - INFO - Starting GUI mode
+2025-08-12 12:05:11,845 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:05:11,845 - root - INFO - Database initialized successfully
+2025-08-12 12:05:11,846 - root - INFO - Database initialized successfully
+2025-08-12 12:05:11,904 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:05:17,324 - root - INFO - Manual data collection triggered
+2025-08-12 12:05:17,325 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:05:19,487 - root - INFO - Successfully fetched data for RELIANCE.NS: $1383.00
+2025-08-12 12:05:19,678 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:05:20,120 - root - INFO - Successfully fetched data for TCS.NS: $3048.80
+2025-08-12 12:05:20,281 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:05:20,720 - root - INFO - Successfully fetched data for INFY.NS: $1429.60
+2025-08-12 12:05:20,825 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:05:21,171 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1978.80
+2025-08-12 12:05:21,287 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:05:21,635 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.60
+2025-08-12 12:05:21,741 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:05:22,084 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2494.40
+2025-08-12 12:05:22,189 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:05:22,573 - root - INFO - Successfully fetched data for ITC.NS: $416.45
+2025-08-12 12:05:22,679 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:05:23,013 - root - INFO - Successfully fetched data for SBIN.NS: $824.25
+2025-08-12 12:05:23,242 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:05:23,588 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.10
+2025-08-12 12:05:23,694 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:05:24,634 - root - INFO - Successfully fetched data for LT.NS: $3687.90
+2025-08-12 12:05:24,738 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:05:24,740 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:05:00+05:30: O:1383.00 H:1383.00 L:1383.00 C:1383.00 V:0
+2025-08-12 12:05:24,744 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:05:00+05:30: O:3048.80 H:3048.80 L:3048.80 C:3048.80 V:0
+2025-08-12 12:05:24,748 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:05:00+05:30: O:1429.60 H:1429.60 L:1429.60 C:1429.60 V:0
+2025-08-12 12:05:24,751 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:05:00+05:30: O:1978.80 H:1978.80 L:1978.80 C:1978.80 V:0
+2025-08-12 12:05:24,754 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:05:00+05:30: O:1423.60 H:1423.60 L:1423.60 C:1423.60 V:0
+2025-08-12 12:05:24,757 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:05:00+05:30: O:2494.40 H:2494.40 L:2494.40 C:2494.40 V:0
+2025-08-12 12:05:24,761 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:05:00+05:30: O:416.45 H:416.45 L:416.45 C:416.45 V:0
+2025-08-12 12:05:24,764 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:05:00+05:30: O:824.25 H:824.25 L:824.25 C:824.25 V:0
+2025-08-12 12:05:24,767 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:05:00+05:30: O:1852.10 H:1852.10 L:1852.10 C:1852.10 V:0
+2025-08-12 12:05:24,770 - root - INFO - Saved candle: LT.NS 2025-08-12 12:05:00+05:30: O:3687.90 H:3687.90 L:3687.90 C:3687.90 V:0
+2025-08-12 12:05:24,773 - root - INFO - Manual collection completed: 10 records saved
+2025-08-12 12:08:02,318 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:08:02,319 - root - INFO - Starting GUI mode
+2025-08-12 12:08:02,520 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:08:02,520 - root - INFO - Database initialized successfully
+2025-08-12 12:08:02,520 - root - INFO - Database initialized successfully
+2025-08-12 12:08:02,597 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:08:05,869 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 12:08:05,870 - root - INFO - Stock tracking started from GUI
+2025-08-12 12:09:53,130 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:09:53,130 - root - INFO - Starting GUI mode
+2025-08-12 12:09:53,352 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:09:53,352 - root - INFO - Database initialized successfully
+2025-08-12 12:09:53,352 - root - INFO - Database initialized successfully
+2025-08-12 12:09:53,418 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:10:02,093 - root - INFO - Manual data collection triggered
+2025-08-12 12:10:02,107 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:10:03,259 - root - INFO - Successfully fetched data for RELIANCE.NS: $1384.00
+2025-08-12 12:10:03,454 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:10:03,678 - root - INFO - Successfully fetched data for TCS.NS: $3049.80
+2025-08-12 12:10:03,783 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:10:04,091 - root - INFO - Successfully fetched data for INFY.NS: $1430.10
+2025-08-12 12:10:04,194 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:10:04,319 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.60
+2025-08-12 12:10:04,425 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:10:04,710 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.90
+2025-08-12 12:10:04,812 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:10:05,103 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2493.30
+2025-08-12 12:10:05,209 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:10:05,483 - root - INFO - Successfully fetched data for ITC.NS: $416.95
+2025-08-12 12:10:05,665 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:10:05,797 - root - INFO - Successfully fetched data for SBIN.NS: $824.90
+2025-08-12 12:10:05,922 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:10:06,038 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.60
+2025-08-12 12:10:06,143 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:10:06,266 - root - INFO - Successfully fetched data for LT.NS: $3690.00
+2025-08-12 12:10:06,374 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:10:06,376 - root - INFO - Info data to save: RELIANCE.NS 2025-08-12 12:10:00+05:30: O:1384.00 H:1384.00 L:1384.00 C:1384.00 V:0 1384.0 0.0 0.0
+2025-08-12 12:10:06,383 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:10:00+05:30: O:1384.00 H:1384.00 L:1384.00 C:1384.00 V:0
+2025-08-12 12:10:06,393 - root - INFO - Info data to save: TCS.NS 2025-08-12 12:10:00+05:30: O:3049.80 H:3049.80 L:3049.80 C:3049.80 V:0 3049.800048828125 0.0 0.0
+2025-08-12 12:10:06,402 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:10:00+05:30: O:3049.80 H:3049.80 L:3049.80 C:3049.80 V:0
+2025-08-12 12:10:06,409 - root - INFO - Info data to save: INFY.NS 2025-08-12 12:10:00+05:30: O:1430.10 H:1430.10 L:1430.10 C:1430.10 V:0 1430.0999755859375 0.0 0.0
+2025-08-12 12:10:06,415 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:10:00+05:30: O:1430.10 H:1430.10 L:1430.10 C:1430.10 V:0
+2025-08-12 12:10:06,422 - root - INFO - Info data to save: HDFCBANK.NS 2025-08-12 12:10:00+05:30: O:1979.60 H:1979.60 L:1979.60 C:1979.60 V:0 1979.5999755859375 0.0 0.0
+2025-08-12 12:10:06,428 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:10:00+05:30: O:1979.60 H:1979.60 L:1979.60 C:1979.60 V:0
+2025-08-12 12:10:06,434 - root - INFO - Info data to save: ICICIBANK.NS 2025-08-12 12:10:00+05:30: O:1423.90 H:1423.90 L:1423.90 C:1423.90 V:0 1423.9000244140625 0.0 0.0
+2025-08-12 12:10:06,438 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:10:00+05:30: O:1423.90 H:1423.90 L:1423.90 C:1423.90 V:0
+2025-08-12 12:10:06,444 - root - INFO - Info data to save: HINDUNILVR.NS 2025-08-12 12:05:00+05:30: O:2495.40 H:2495.40 L:2492.40 C:2493.30 V:6734 2493.89990234375 16793.92194238281 -16793.92194238281
+2025-08-12 12:10:06,449 - root - INFO - Info data to save: ITC.NS 2025-08-12 12:10:00+05:30: O:416.95 H:416.95 L:416.95 C:416.95 V:0 416.95001220703125 0.0 0.0
+2025-08-12 12:10:06,454 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:10:00+05:30: O:416.95 H:416.95 L:416.95 C:416.95 V:0
+2025-08-12 12:10:06,458 - root - INFO - Info data to save: SBIN.NS 2025-08-12 12:10:00+05:30: O:824.90 H:824.90 L:824.90 C:824.90 V:0 824.9000244140625 0.0 0.0
+2025-08-12 12:10:06,462 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:10:00+05:30: O:824.90 H:824.90 L:824.90 C:824.90 V:0
+2025-08-12 12:10:06,466 - root - INFO - Info data to save: BHARTIARTL.NS 2025-08-12 12:10:00+05:30: O:1852.60 H:1852.60 L:1852.60 C:1852.60 V:0 1852.5999755859375 0.0 0.0
+2025-08-12 12:10:06,469 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:10:00+05:30: O:1852.60 H:1852.60 L:1852.60 C:1852.60 V:0
+2025-08-12 12:10:06,473 - root - INFO - Info data to save: LT.NS 2025-08-12 12:10:00+05:30: O:3690.00 H:3690.00 L:3690.00 C:3690.00 V:0 3690.0 0.0 0.0
+2025-08-12 12:10:06,477 - root - INFO - Saved candle: LT.NS 2025-08-12 12:10:00+05:30: O:3690.00 H:3690.00 L:3690.00 C:3690.00 V:0
+2025-08-12 12:10:06,480 - root - INFO - Manual collection completed: 9 records saved
+2025-08-12 12:10:54,641 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 12:10:54,643 - root - INFO - Stock tracking started from GUI
+2025-08-12 12:14:24,137 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:14:24,137 - root - INFO - Starting GUI mode
+2025-08-12 12:14:24,334 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:14:24,336 - root - INFO - Database initialized successfully
+2025-08-12 12:14:24,336 - root - INFO - Database initialized successfully
+2025-08-12 12:14:24,394 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:14:32,451 - root - INFO - Manual data collection triggered
+2025-08-12 12:14:32,452 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:14:33,459 - root - INFO - Successfully fetched data for RELIANCE.NS: $1384.90
+2025-08-12 12:14:33,692 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:14:33,922 - root - INFO - Successfully fetched data for TCS.NS: $3049.80
+2025-08-12 12:14:34,094 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:14:34,311 - root - INFO - Successfully fetched data for INFY.NS: $1428.40
+2025-08-12 12:14:34,492 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:14:34,610 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.20
+2025-08-12 12:14:34,715 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:14:34,848 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.70
+2025-08-12 12:14:35,095 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:14:35,329 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2494.90
+2025-08-12 12:14:35,497 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:14:35,736 - root - INFO - Successfully fetched data for ITC.NS: $417.10
+2025-08-12 12:14:35,905 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:14:36,139 - root - INFO - Successfully fetched data for SBIN.NS: $825.00
+2025-08-12 12:14:36,242 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:14:36,539 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.00
+2025-08-12 12:14:36,644 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:14:36,807 - root - INFO - Successfully fetched data for LT.NS: $3687.10
+2025-08-12 12:14:36,919 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:14:36,922 - root - INFO - Final calculated values - Avg: 1384.4, MF: 66851.29, NetMF: 66851.29
+2025-08-12 12:14:36,924 - root - INFO - Final calculated values - Avg: 3048.9, MF: 27040.69, NetMF: -27040.69
+2025-08-12 12:14:36,929 - root - INFO - Final calculated values - Avg: 1428.75, MF: 65919.67, NetMF: -65919.67
+2025-08-12 12:14:36,933 - root - INFO - Final calculated values - Avg: 1979.4, MF: 41460.51, NetMF: -41460.51
+2025-08-12 12:14:36,936 - root - INFO - Final calculated values - Avg: 1423.9, MF: 56881.96, NetMF: -56881.96
+2025-08-12 12:14:36,940 - root - INFO - Final calculated values - Avg: 2495.2, MF: 17154.5, NetMF: 17154.5
+2025-08-12 12:14:36,944 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:10:00+05:30: O:2493.10 H:2497.50 L:2492.90 C:2494.90 V:6875
+2025-08-12 12:14:36,947 - root - INFO - Final calculated values - Avg: 416.95, MF: 21224.42, NetMF: -21224.42
+2025-08-12 12:14:36,952 - root - INFO - Final calculated values - Avg: 824.83, MF: 66837.62, NetMF: -66837.62
+2025-08-12 12:14:36,955 - root - INFO - Final calculated values - Avg: 1852.3, MF: 46659.44, NetMF: -46659.44
+2025-08-12 12:14:36,958 - root - INFO - Final calculated values - Avg: 3689.15, MF: 36777.14, NetMF: -36777.14
+2025-08-12 12:14:36,961 - root - INFO - Manual collection completed: 1 records saved
+2025-08-12 12:15:01,916 - root - INFO - Manual data collection triggered
+2025-08-12 12:15:01,917 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:15:02,238 - root - INFO - Successfully fetched data for RELIANCE.NS: $1385.00
+2025-08-12 12:15:02,342 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:15:02,491 - root - INFO - Successfully fetched data for TCS.NS: $3049.00
+2025-08-12 12:15:02,596 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:15:02,787 - root - INFO - Successfully fetched data for INFY.NS: $1428.50
+2025-08-12 12:15:02,897 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:15:03,020 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.50
+2025-08-12 12:15:03,126 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:15:03,244 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1423.90
+2025-08-12 12:15:03,346 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:15:03,591 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2494.20
+2025-08-12 12:15:03,696 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:15:03,816 - root - INFO - Successfully fetched data for ITC.NS: $417.10
+2025-08-12 12:15:03,919 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:15:04,042 - root - INFO - Successfully fetched data for SBIN.NS: $824.90
+2025-08-12 12:15:04,144 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:15:04,467 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.00
+2025-08-12 12:15:04,635 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:15:04,767 - root - INFO - Successfully fetched data for LT.NS: $3687.10
+2025-08-12 12:15:05,036 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:15:05,040 - root - INFO - Final calculated values - Avg: 1385.0, MF: 0.0, NetMF: 0.0
+2025-08-12 12:15:05,045 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:15:00+05:30: O:1385.00 H:1385.00 L:1385.00 C:1385.00 V:0
+2025-08-12 12:15:05,052 - root - INFO - Final calculated values - Avg: 3048.9, MF: 27040.69, NetMF: -27040.69
+2025-08-12 12:15:05,060 - root - INFO - Final calculated values - Avg: 1428.75, MF: 65919.67, NetMF: -65919.67
+2025-08-12 12:15:05,067 - root - INFO - Final calculated values - Avg: 1979.5, MF: 0.0, NetMF: -0.0
+2025-08-12 12:15:05,071 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:15:00+05:30: O:1979.50 H:1979.50 L:1979.50 C:1979.50 V:0
+2025-08-12 12:15:05,075 - root - INFO - Final calculated values - Avg: 1423.9, MF: 0.0, NetMF: -0.0
+2025-08-12 12:15:05,083 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:15:00+05:30: O:1423.90 H:1423.90 L:1423.90 C:1423.90 V:0
+2025-08-12 12:15:05,085 - root - INFO - Final calculated values - Avg: 2495.2, MF: 17154.5, NetMF: 17154.5
+2025-08-12 12:15:05,099 - root - INFO - Final calculated values - Avg: 417.1, MF: 0.0, NetMF: 0.0
+2025-08-12 12:15:05,104 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:15:00+05:30: O:417.10 H:417.10 L:417.10 C:417.10 V:0
+2025-08-12 12:15:05,109 - root - INFO - Final calculated values - Avg: 824.9, MF: 0.0, NetMF: -0.0
+2025-08-12 12:15:05,110 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:15:00+05:30: O:824.90 H:824.90 L:824.90 C:824.90 V:0
+2025-08-12 12:15:05,115 - root - INFO - Final calculated values - Avg: 1852.0, MF: 0.0, NetMF: -0.0
+2025-08-12 12:15:05,126 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:15:00+05:30: O:1852.00 H:1852.00 L:1852.00 C:1852.00 V:0
+2025-08-12 12:15:05,127 - root - INFO - Final calculated values - Avg: 3687.1, MF: 0.0, NetMF: -0.0
+2025-08-12 12:15:05,134 - root - INFO - Saved candle: LT.NS 2025-08-12 12:15:00+05:30: O:3687.10 H:3687.10 L:3687.10 C:3687.10 V:0
+2025-08-12 12:15:05,134 - root - INFO - Manual collection completed: 7 records saved
+2025-08-12 12:23:03,657 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:23:03,657 - root - INFO - Starting GUI mode
+2025-08-12 12:23:03,933 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:23:03,934 - root - INFO - Database initialized successfully
+2025-08-12 12:23:03,934 - root - INFO - Database initialized successfully
+2025-08-12 12:23:03,995 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:23:06,437 - root - INFO - Manual data collection triggered
+2025-08-12 12:23:06,438 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:23:07,411 - root - INFO - Successfully fetched data for RELIANCE.NS: $1389.70
+2025-08-12 12:23:07,626 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:23:07,867 - root - INFO - Successfully fetched data for TCS.NS: $3052.00
+2025-08-12 12:23:07,973 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:23:08,239 - root - INFO - Successfully fetched data for INFY.NS: $1431.70
+2025-08-12 12:23:08,341 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:23:08,454 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1981.10
+2025-08-12 12:23:08,559 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:23:08,671 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1427.20
+2025-08-12 12:23:08,776 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:23:08,895 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2498.80
+2025-08-12 12:23:09,007 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:23:09,240 - root - INFO - Successfully fetched data for ITC.NS: $417.85
+2025-08-12 12:23:09,346 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:23:09,477 - root - INFO - Successfully fetched data for SBIN.NS: $825.05
+2025-08-12 12:23:09,581 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:23:09,706 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1853.00
+2025-08-12 12:23:09,811 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:23:09,938 - root - INFO - Successfully fetched data for LT.NS: $3696.00
+2025-08-12 12:23:10,044 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:23:10,247 - root - INFO - Final calculated values - Avg: 1389.3, MF: 181720.44, NetMF: 181720.44
+2025-08-12 12:23:10,254 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:20:00+05:30: O:1388.70 H:1390.50 L:1388.10 C:1389.70 V:130800
+2025-08-12 12:23:10,261 - root - INFO - Final calculated values - Avg: 3051.9, MF: 105003.67, NetMF: 105003.67
+2025-08-12 12:23:10,271 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:20:00+05:30: O:3052.00 H:3052.00 L:3051.80 C:3052.00 V:34406
+2025-08-12 12:23:10,276 - root - INFO - Final calculated values - Avg: 1431.1, MF: 89911.72, NetMF: 89911.72
+2025-08-12 12:23:10,283 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:20:00+05:30: O:1430.60 H:1431.80 L:1430.40 C:1431.70 V:62827
+2025-08-12 12:23:10,288 - root - INFO - Final calculated values - Avg: 1981.6, MF: 196523.2, NetMF: 196523.2
+2025-08-12 12:23:10,294 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:20:00+05:30: O:1982.60 H:1982.90 L:1980.30 C:1981.10 V:99174
+2025-08-12 12:23:10,300 - root - INFO - Final calculated values - Avg: 1426.8, MF: 130331.05, NetMF: 130331.05
+2025-08-12 12:23:10,305 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:20:00+05:30: O:1426.80 H:1428.00 L:1425.60 C:1427.20 V:91345
+2025-08-12 12:23:10,308 - root - INFO - Final calculated values - Avg: 2498.5, MF: 25432.23, NetMF: 25432.23
+2025-08-12 12:23:10,315 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:20:00+05:30: O:2497.20 H:2499.80 L:2497.20 C:2498.80 V:10179
+2025-08-12 12:23:10,317 - root - INFO - Final calculated values - Avg: 417.6, MF: 75864.56, NetMF: 75864.56
+2025-08-12 12:23:10,323 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:20:00+05:30: O:417.55 H:417.90 L:417.30 C:417.85 V:181668
+2025-08-12 12:23:10,325 - root - INFO - Final calculated values - Avg: 824.8, MF: 85460.83, NetMF: -85460.83
+2025-08-12 12:23:10,331 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:20:00+05:30: O:824.95 H:825.05 L:824.55 C:825.05 V:103614
+2025-08-12 12:23:10,332 - root - INFO - Final calculated values - Avg: 1853.6, MF: 67029.88, NetMF: 67029.88
+2025-08-12 12:23:10,337 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:20:00+05:30: O:1854.00 H:1854.60 L:1852.60 C:1853.00 V:36162
+2025-08-12 12:23:10,340 - root - INFO - Final calculated values - Avg: 3696.1, MF: 74583.6, NetMF: 74583.6
+2025-08-12 12:23:10,344 - root - INFO - Saved candle: LT.NS 2025-08-12 12:20:00+05:30: O:3695.40 H:3700.10 L:3692.10 C:3696.00 V:20179
+2025-08-12 12:23:10,345 - root - INFO - Manual collection completed: 10 records saved
+2025-08-12 12:25:37,024 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:25:37,025 - root - INFO - Starting GUI mode
+2025-08-12 12:25:37,239 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:25:37,242 - root - INFO - Database initialized successfully
+2025-08-12 12:25:37,243 - root - INFO - Database initialized successfully
+2025-08-12 12:25:37,300 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:25:40,136 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 12:25:40,137 - root - INFO - Stock tracking started from GUI
+2025-08-12 12:25:45,137 - root - INFO - Manual data collection triggered
+2025-08-12 12:25:45,138 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:25:46,121 - root - INFO - Successfully fetched data for RELIANCE.NS: $1392.70
+2025-08-12 12:25:46,374 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:25:46,519 - root - INFO - Successfully fetched data for TCS.NS: $3053.00
+2025-08-12 12:25:46,625 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:25:46,804 - root - INFO - Successfully fetched data for INFY.NS: $1433.10
+2025-08-12 12:25:46,909 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:25:47,061 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1981.60
+2025-08-12 12:25:47,164 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:25:47,415 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1428.40
+2025-08-12 12:25:47,521 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:25:47,663 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2499.00
+2025-08-12 12:25:47,769 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:25:48,024 - root - INFO - Successfully fetched data for ITC.NS: $417.45
+2025-08-12 12:25:48,129 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:25:48,405 - root - INFO - Successfully fetched data for SBIN.NS: $825.00
+2025-08-12 12:25:48,513 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:25:48,675 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1855.80
+2025-08-12 12:25:48,779 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:25:48,927 - root - INFO - Successfully fetched data for LT.NS: $3705.70
+2025-08-12 12:25:49,033 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:25:49,034 - root - INFO - Final calculated values - Avg: 1392.7, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,040 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:25:00+05:30: O:1392.70 H:1392.70 L:1392.70 C:1392.70 V:0
+2025-08-12 12:25:49,044 - root - INFO - Final calculated values - Avg: 3053.0, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,053 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:25:00+05:30: O:3053.00 H:3053.00 L:3053.00 C:3053.00 V:0
+2025-08-12 12:25:49,058 - root - INFO - Final calculated values - Avg: 1433.1, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,100 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:25:00+05:30: O:1433.10 H:1433.10 L:1433.10 C:1433.10 V:0
+2025-08-12 12:25:49,102 - root - INFO - Final calculated values - Avg: 1981.6, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,106 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:25:00+05:30: O:1981.60 H:1981.60 L:1981.60 C:1981.60 V:0
+2025-08-12 12:25:49,108 - root - INFO - Final calculated values - Avg: 1428.4, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,112 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:25:00+05:30: O:1428.40 H:1428.40 L:1428.40 C:1428.40 V:0
+2025-08-12 12:25:49,115 - root - INFO - Final calculated values - Avg: 2499.0, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,119 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:25:00+05:30: O:2499.00 H:2499.00 L:2499.00 C:2499.00 V:0
+2025-08-12 12:25:49,120 - root - INFO - Final calculated values - Avg: 417.45, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,124 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:25:00+05:30: O:417.45 H:417.45 L:417.45 C:417.45 V:0
+2025-08-12 12:25:49,126 - root - INFO - Final calculated values - Avg: 825.0, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,129 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:25:00+05:30: O:825.00 H:825.00 L:825.00 C:825.00 V:0
+2025-08-12 12:25:49,131 - root - INFO - Final calculated values - Avg: 1855.8, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,135 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:25:00+05:30: O:1855.80 H:1855.80 L:1855.80 C:1855.80 V:0
+2025-08-12 12:25:49,136 - root - INFO - Final calculated values - Avg: 3705.7, MF: 0.0, NetMF: 0.0
+2025-08-12 12:25:49,140 - root - INFO - Saved candle: LT.NS 2025-08-12 12:25:00+05:30: O:3705.70 H:3705.70 L:3705.70 C:3705.70 V:0
+2025-08-12 12:25:49,142 - root - INFO - Manual collection completed: 10 records saved
+2025-08-12 12:27:05,712 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:27:05,712 - root - INFO - Starting GUI mode
+2025-08-12 12:27:05,932 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:27:05,934 - root - INFO - Database initialized successfully
+2025-08-12 12:27:05,936 - root - INFO - Database initialized successfully
+2025-08-12 12:27:06,003 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:27:08,720 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 12:27:08,721 - root - INFO - Stock tracking started from GUI
+2025-08-12 12:32:08,887 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 12:32:08
+2025-08-12 12:32:08,964 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:32:09,976 - root - INFO - Successfully fetched data for RELIANCE.NS: $1391.90
+2025-08-12 12:32:10,274 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:32:10,412 - root - INFO - Successfully fetched data for TCS.NS: $3052.10
+2025-08-12 12:32:10,518 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:32:10,712 - root - INFO - Successfully fetched data for INFY.NS: $1433.90
+2025-08-12 12:32:10,818 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:32:11,115 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1983.30
+2025-08-12 12:32:11,220 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:32:11,519 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1429.40
+2025-08-12 12:32:11,625 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:32:11,916 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2497.50
+2025-08-12 12:32:12,021 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:32:12,184 - root - INFO - Successfully fetched data for ITC.NS: $417.25
+2025-08-12 12:32:12,290 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:32:12,409 - root - INFO - Successfully fetched data for SBIN.NS: $825.00
+2025-08-12 12:32:12,512 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:32:12,646 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1856.50
+2025-08-12 12:32:12,752 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:32:12,996 - root - INFO - Successfully fetched data for LT.NS: $3705.60
+2025-08-12 12:32:13,102 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:32:13,199 - root - INFO - Final calculated values - Avg: 1391.0, MF: 88580.27, NetMF: 88580.27
+2025-08-12 12:32:13,401 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:30:00+05:30: O:1390.30 H:1391.90 L:1390.10 C:1391.90 V:63681
+2025-08-12 12:32:13,402 - root - INFO - Final calculated values - Avg: 3051.85, MF: 22815.63, NetMF: 22815.63
+2025-08-12 12:32:13,403 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:30:00+05:30: O:3051.60 H:3052.10 L:3051.60 C:3052.10 V:7476
+2025-08-12 12:32:13,600 - root - INFO - Final calculated values - Avg: 1433.55, MF: 36380.63, NetMF: 36380.63
+2025-08-12 12:32:13,602 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:30:00+05:30: O:1432.50 H:1434.60 L:1432.50 C:1433.90 V:25378
+2025-08-12 12:32:13,602 - root - INFO - Final calculated values - Avg: 1982.9, MF: 43861.75, NetMF: 43861.75
+2025-08-12 12:32:13,604 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:30:00+05:30: O:1981.60 H:1984.20 L:1981.60 C:1983.30 V:22120
+2025-08-12 12:32:13,605 - root - INFO - Final calculated values - Avg: 1428.75, MF: 39074.88, NetMF: 39074.88
+2025-08-12 12:32:13,607 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:30:00+05:30: O:1428.40 H:1429.40 L:1428.10 C:1429.40 V:27349
+2025-08-12 12:32:13,608 - root - INFO - Final calculated values - Avg: 2497.55, MF: 6318.8, NetMF: 6318.8
+2025-08-12 12:32:13,609 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:30:00+05:30: O:2497.20 H:2498.60 L:2496.50 C:2497.50 V:2530
+2025-08-12 12:32:13,610 - root - INFO - Final calculated values - Avg: 417.35, MF: 30470.31, NetMF: 30470.31
+2025-08-12 12:32:13,612 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:30:00+05:30: O:417.25 H:417.50 L:417.20 C:417.25 V:73009
+2025-08-12 12:32:13,613 - root - INFO - Final calculated values - Avg: 824.85, MF: 15017.22, NetMF: 15017.22
+2025-08-12 12:32:13,615 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:30:00+05:30: O:824.60 H:825.10 L:824.60 C:825.00 V:18206
+2025-08-12 12:32:13,615 - root - INFO - Final calculated values - Avg: 1855.7, MF: 26751.77, NetMF: 26751.77
+2025-08-12 12:32:13,617 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:30:00+05:30: O:1856.10 H:1856.50 L:1854.90 C:1856.50 V:14416
+2025-08-12 12:32:13,618 - root - INFO - Final calculated values - Avg: 3704.35, MF: 14910.01, NetMF: 14910.01
+2025-08-12 12:32:13,619 - root - INFO - Saved candle: LT.NS 2025-08-12 12:30:00+05:30: O:3704.60 H:3705.70 L:3703.00 C:3705.60 V:4025
+2025-08-12 12:32:13,620 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 12:37:13,768 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 12:37:13
+2025-08-12 12:37:13,952 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:37:14,412 - root - INFO - Successfully fetched data for RELIANCE.NS: $1393.20
+2025-08-12 12:37:14,518 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:37:14,692 - root - INFO - Successfully fetched data for TCS.NS: $3052.60
+2025-08-12 12:37:14,794 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:37:14,900 - root - INFO - Successfully fetched data for INFY.NS: $1434.80
+2025-08-12 12:37:15,005 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:37:15,117 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1984.30
+2025-08-12 12:37:15,223 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:37:15,334 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1429.00
+2025-08-12 12:37:15,464 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:37:15,591 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2497.80
+2025-08-12 12:37:15,696 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:37:15,821 - root - INFO - Successfully fetched data for ITC.NS: $417.45
+2025-08-12 12:37:15,926 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:37:16,044 - root - INFO - Successfully fetched data for SBIN.NS: $825.10
+2025-08-12 12:37:16,145 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:37:16,295 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1856.80
+2025-08-12 12:37:16,400 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:37:16,524 - root - INFO - Successfully fetched data for LT.NS: $3711.00
+2025-08-12 12:37:16,626 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:37:16,767 - root - INFO - Final calculated values - Avg: 1392.0, MF: 56945.33, NetMF: 56945.33
+2025-08-12 12:37:16,770 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:35:00+05:30: O:1390.90 H:1393.40 L:1390.60 C:1393.20 V:40909
+2025-08-12 12:37:16,771 - root - INFO - Final calculated values - Avg: 3052.6, MF: 38578.76, NetMF: 38578.76
+2025-08-12 12:37:16,775 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:35:00+05:30: O:3051.30 H:3053.90 L:3051.30 C:3052.60 V:12638
+2025-08-12 12:37:16,776 - root - INFO - Final calculated values - Avg: 1434.0, MF: 191070.46, NetMF: 191070.46
+2025-08-12 12:37:16,779 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:35:00+05:30: O:1432.90 H:1435.30 L:1432.70 C:1434.80 V:133243
+2025-08-12 12:37:16,781 - root - INFO - Final calculated values - Avg: 1984.3, MF: 66765.74, NetMF: 66765.74
+2025-08-12 12:37:16,784 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:35:00+05:30: O:1983.90 H:1985.00 L:1983.60 C:1984.30 V:33647
+2025-08-12 12:37:16,785 - root - INFO - Final calculated values - Avg: 1429.55, MF: 101196.41, NetMF: 101196.41
+2025-08-12 12:37:16,788 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:35:00+05:30: O:1428.60 H:1430.80 L:1428.30 C:1429.00 V:70789
+2025-08-12 12:37:16,789 - root - INFO - Final calculated values - Avg: 2497.2, MF: 6732.45, NetMF: -6732.45
+2025-08-12 12:37:16,791 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:35:00+05:30: O:2496.80 H:2498.50 L:2495.90 C:2497.80 V:2696
+2025-08-12 12:37:16,792 - root - INFO - Final calculated values - Avg: 417.32, MF: 12312.61, NetMF: -12312.61
+2025-08-12 12:37:16,795 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:35:00+05:30: O:417.15 H:417.50 L:417.15 C:417.45 V:29504
+2025-08-12 12:37:16,796 - root - INFO - Final calculated values - Avg: 824.88, MF: 40641.84, NetMF: 40641.84
+2025-08-12 12:37:16,798 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:35:00+05:30: O:824.50 H:825.25 L:824.50 C:825.10 V:49270
+2025-08-12 12:37:16,800 - root - INFO - Final calculated values - Avg: 1856.35, MF: 63310.82, NetMF: 63310.82
+2025-08-12 12:37:16,802 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:35:00+05:30: O:1855.70 H:1857.70 L:1855.00 C:1856.80 V:34105
+2025-08-12 12:37:16,802 - root - INFO - Final calculated values - Avg: 3706.55, MF: 37554.76, NetMF: 37554.76
+2025-08-12 12:37:16,805 - root - INFO - Saved candle: LT.NS 2025-08-12 12:35:00+05:30: O:3702.90 H:3711.00 L:3702.10 C:3711.00 V:10132
+2025-08-12 12:37:16,805 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 12:38:40,590 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:38:40,591 - root - INFO - Starting GUI mode
+2025-08-12 12:38:40,789 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:38:40,789 - root - INFO - Database initialized successfully
+2025-08-12 12:38:40,789 - root - INFO - Database initialized successfully
+2025-08-12 12:38:40,860 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:40:18,056 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:40:18,057 - root - INFO - Starting GUI mode
+2025-08-12 12:40:18,260 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:40:18,261 - root - INFO - Database initialized successfully
+2025-08-12 12:40:18,261 - root - INFO - Database initialized successfully
+2025-08-12 12:40:18,319 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:40:23,904 - root - ERROR - Error refreshing data: Invalid format specifier '.2f,' for object of type 'int'
+2025-08-12 12:40:43,081 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:40:43,081 - root - INFO - Starting GUI mode
+2025-08-12 12:40:43,278 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:40:43,278 - root - INFO - Database initialized successfully
+2025-08-12 12:40:43,279 - root - INFO - Database initialized successfully
+2025-08-12 12:40:43,345 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:40:47,716 - root - ERROR - Error refreshing data: Invalid format specifier '.2f,' for object of type 'float'
+2025-08-12 12:41:14,017 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:41:14,018 - root - INFO - Starting GUI mode
+2025-08-12 12:41:14,235 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:41:14,235 - root - INFO - Database initialized successfully
+2025-08-12 12:41:14,235 - root - INFO - Database initialized successfully
+2025-08-12 12:41:14,308 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:41:36,379 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:41:36,379 - root - INFO - Starting GUI mode
+2025-08-12 12:41:36,580 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:41:36,580 - root - INFO - Database initialized successfully
+2025-08-12 12:41:36,581 - root - INFO - Database initialized successfully
+2025-08-12 12:41:36,638 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:43:01,057 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:43:01,058 - root - INFO - Starting GUI mode
+2025-08-12 12:43:01,286 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:43:01,286 - root - INFO - Database initialized successfully
+2025-08-12 12:43:01,286 - root - INFO - Database initialized successfully
+2025-08-12 12:43:01,354 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:43:04,354 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 12:43:04,355 - root - INFO - Stock tracking started from GUI
+2025-08-12 12:47:15,013 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 12:47:15,014 - root - INFO - Starting GUI mode
+2025-08-12 12:47:15,356 - root - INFO - Data fetcher initialized successfully
+2025-08-12 12:47:15,361 - root - INFO - Database initialized successfully
+2025-08-12 12:47:15,363 - root - INFO - Database initialized successfully
+2025-08-12 12:47:15,473 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 12:47:18,810 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 12:47:18,810 - root - INFO - Stock tracking started from GUI
+2025-08-12 12:52:18,926 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 12:52:18
+2025-08-12 12:52:18,932 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:52:20,178 - root - INFO - Successfully fetched data for RELIANCE.NS: $1390.80
+2025-08-12 12:52:20,313 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:52:20,551 - root - INFO - Successfully fetched data for TCS.NS: $3055.00
+2025-08-12 12:52:20,657 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:52:20,790 - root - INFO - Successfully fetched data for INFY.NS: $1433.10
+2025-08-12 12:52:20,895 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:52:21,132 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1982.30
+2025-08-12 12:52:21,238 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:52:21,566 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1427.40
+2025-08-12 12:52:21,670 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:52:21,816 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2491.60
+2025-08-12 12:52:21,921 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:52:22,146 - root - INFO - Successfully fetched data for ITC.NS: $416.70
+2025-08-12 12:52:22,251 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:52:22,381 - root - INFO - Successfully fetched data for SBIN.NS: $824.15
+2025-08-12 12:52:22,487 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:52:22,750 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1853.90
+2025-08-12 12:52:22,856 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:52:22,992 - root - INFO - Successfully fetched data for LT.NS: $3703.80
+2025-08-12 12:52:23,095 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:52:23,097 - root - INFO - Final calculated values - Avg: 1391, MF: 20984, NetMF: -20984
+2025-08-12 12:52:23,103 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:50:00+05:30: O:1390.90 H:1392.30 L:1390.80 C:1390.80 V:15086
+2025-08-12 12:52:23,109 - root - INFO - Final calculated values - Avg: 3056, MF: 34276, NetMF: -34276
+2025-08-12 12:52:23,121 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:50:00+05:30: O:3055.30 H:3057.50 L:3055.00 C:3055.00 V:11216
+2025-08-12 12:52:23,121 - root - INFO - Final calculated values - Avg: 1433, MF: 23274, NetMF: -23274
+2025-08-12 12:52:23,125 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:50:00+05:30: O:1433.80 H:1433.90 L:1432.80 C:1433.10 V:16242
+2025-08-12 12:52:23,128 - root - INFO - Final calculated values - Avg: 1983, MF: 35807, NetMF: -35807
+2025-08-12 12:52:23,134 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:50:00+05:30: O:1983.40 H:1984.40 L:1982.30 C:1982.30 V:18057
+2025-08-12 12:52:23,137 - root - INFO - Final calculated values - Avg: 1428, MF: 9797, NetMF: -9797
+2025-08-12 12:52:23,143 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:50:00+05:30: O:1427.90 H:1428.60 L:1427.40 C:1427.40 V:6861
+2025-08-12 12:52:23,147 - root - INFO - Final calculated values - Avg: 2491, MF: 265993, NetMF: -265993
+2025-08-12 12:52:23,153 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:50:00+05:30: O:2495.00 H:2496.20 L:2487.60 C:2491.60 V:106782
+2025-08-12 12:52:23,155 - root - INFO - Final calculated values - Avg: 417, MF: 15731, NetMF: -15731
+2025-08-12 12:52:23,160 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:50:00+05:30: O:417.25 H:417.35 L:416.70 C:416.70 V:37726
+2025-08-12 12:52:23,163 - root - INFO - Final calculated values - Avg: 824, MF: 15883, NetMF: -15883
+2025-08-12 12:52:23,167 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:50:00+05:30: O:824.55 H:824.85 L:824.15 C:824.15 V:19276
+2025-08-12 12:52:23,170 - root - INFO - Final calculated values - Avg: 1854, MF: 25570, NetMF: -25570
+2025-08-12 12:52:23,174 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:50:00+05:30: O:1855.00 H:1855.90 L:1853.90 C:1853.90 V:13792
+2025-08-12 12:52:23,176 - root - INFO - Final calculated values - Avg: 3705, MF: 15349, NetMF: -15349
+2025-08-12 12:52:23,180 - root - INFO - Saved candle: LT.NS 2025-08-12 12:50:00+05:30: O:3704.70 H:3707.30 L:3703.80 C:3703.80 V:4143
+2025-08-12 12:52:23,182 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 12:57:23,302 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 12:57:23
+2025-08-12 12:57:23,308 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 12:57:23,686 - root - INFO - Successfully fetched data for RELIANCE.NS: $1389.40
+2025-08-12 12:57:23,795 - root - INFO - Fetching data for TCS.NS
+2025-08-12 12:57:24,003 - root - INFO - Successfully fetched data for TCS.NS: $3054.10
+2025-08-12 12:57:24,196 - root - INFO - Fetching data for INFY.NS
+2025-08-12 12:57:24,417 - root - INFO - Successfully fetched data for INFY.NS: $1430.10
+2025-08-12 12:57:24,520 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 12:57:24,634 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1981.50
+2025-08-12 12:57:24,740 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 12:57:25,017 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1427.70
+2025-08-12 12:57:25,201 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 12:57:25,361 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2491.30
+2025-08-12 12:57:25,464 - root - INFO - Fetching data for ITC.NS
+2025-08-12 12:57:25,598 - root - INFO - Successfully fetched data for ITC.NS: $417.20
+2025-08-12 12:57:25,703 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 12:57:25,820 - root - INFO - Successfully fetched data for SBIN.NS: $824.20
+2025-08-12 12:57:25,938 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 12:57:26,054 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.70
+2025-08-12 12:57:26,160 - root - INFO - Fetching data for LT.NS
+2025-08-12 12:57:26,289 - root - INFO - Successfully fetched data for LT.NS: $3701.40
+2025-08-12 12:57:26,391 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 12:57:26,463 - root - INFO - Final calculated values - Avg: 1390, MF: 21747, NetMF: -21747
+2025-08-12 12:57:26,470 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 12:55:00+05:30: O:1390.80 H:1391.00 L:1389.40 C:1389.40 V:15646
+2025-08-12 12:57:26,476 - root - INFO - Final calculated values - Avg: 3053, MF: 24207, NetMF: -24207
+2025-08-12 12:57:26,486 - root - INFO - Saved candle: TCS.NS 2025-08-12 12:55:00+05:30: O:3054.30 H:3054.60 L:3053.10 C:3054.10 V:7929
+2025-08-12 12:57:26,491 - root - INFO - Final calculated values - Avg: 1430, MF: 22256, NetMF: -22256
+2025-08-12 12:57:26,498 - root - INFO - Saved candle: INFY.NS 2025-08-12 12:55:00+05:30: O:1431.20 H:1431.30 L:1430.10 C:1430.10 V:15564
+2025-08-12 12:57:26,502 - root - INFO - Final calculated values - Avg: 1981, MF: 19758, NetMF: -19758
+2025-08-12 12:57:26,509 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 12:55:00+05:30: O:1981.80 H:1982.00 L:1981.40 C:1981.50 V:9974
+2025-08-12 12:57:26,512 - root - INFO - Final calculated values - Avg: 1427, MF: 11393, NetMF: -11393
+2025-08-12 12:57:26,518 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 12:55:00+05:30: O:1427.00 H:1428.10 L:1427.00 C:1427.70 V:7984
+2025-08-12 12:57:26,521 - root - INFO - Final calculated values - Avg: 2491, MF: 4693, NetMF: -4693
+2025-08-12 12:57:26,526 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 12:55:00+05:30: O:2491.20 H:2492.40 L:2490.10 C:2491.30 V:1884
+2025-08-12 12:57:26,529 - root - INFO - Final calculated values - Avg: 417, MF: 36095, NetMF: -36095
+2025-08-12 12:57:26,534 - root - INFO - Saved candle: ITC.NS 2025-08-12 12:55:00+05:30: O:416.90 H:417.20 L:416.85 C:417.20 V:86561
+2025-08-12 12:57:26,536 - root - INFO - Final calculated values - Avg: 824, MF: 13754, NetMF: -13754
+2025-08-12 12:57:26,540 - root - INFO - Saved candle: SBIN.NS 2025-08-12 12:55:00+05:30: O:824.45 H:824.60 L:824.20 C:824.20 V:16692
+2025-08-12 12:57:26,543 - root - INFO - Final calculated values - Avg: 1852, MF: 19423, NetMF: -19423
+2025-08-12 12:57:26,547 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 12:55:00+05:30: O:1852.60 H:1852.60 L:1851.70 C:1851.70 V:10488
+2025-08-12 12:57:26,549 - root - INFO - Final calculated values - Avg: 3702, MF: 16944, NetMF: -16944
+2025-08-12 12:57:26,553 - root - INFO - Saved candle: LT.NS 2025-08-12 12:55:00+05:30: O:3703.90 H:3704.00 L:3701.40 C:3701.40 V:4577
+2025-08-12 12:57:26,555 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:02:26,694 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:02:26
+2025-08-12 13:02:26,696 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:02:27,009 - root - INFO - Successfully fetched data for RELIANCE.NS: $1391.80
+2025-08-12 13:02:27,115 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:02:27,250 - root - INFO - Successfully fetched data for TCS.NS: $3055.70
+2025-08-12 13:02:27,356 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:02:27,495 - root - INFO - Successfully fetched data for INFY.NS: $1432.00
+2025-08-12 13:02:27,601 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:02:27,714 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1982.00
+2025-08-12 13:02:27,963 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:02:28,189 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1428.90
+2025-08-12 13:02:28,294 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:02:28,460 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2491.70
+2025-08-12 13:02:28,565 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:02:28,806 - root - INFO - Successfully fetched data for ITC.NS: $417.25
+2025-08-12 13:02:28,912 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:02:29,021 - root - INFO - Successfully fetched data for SBIN.NS: $824.25
+2025-08-12 13:02:29,123 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:02:29,275 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.30
+2025-08-12 13:02:29,381 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:02:29,508 - root - INFO - Successfully fetched data for LT.NS: $3703.00
+2025-08-12 13:02:29,614 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:02:29,616 - root - INFO - Final calculated values - Avg: 1390, MF: 19946, NetMF: -19946
+2025-08-12 13:02:29,618 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:00:00+05:30: O:1390.80 H:1391.80 L:1390.10 C:1391.80 V:14350
+2025-08-12 13:02:29,622 - root - INFO - Final calculated values - Avg: 3054, MF: 20880, NetMF: 20880
+2025-08-12 13:02:29,628 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:00:00+05:30: O:3053.80 H:3055.70 L:3053.50 C:3055.70 V:6837
+2025-08-12 13:02:29,630 - root - INFO - Final calculated values - Avg: 1431, MF: 23554, NetMF: 23554
+2025-08-12 13:02:29,635 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:00:00+05:30: O:1430.10 H:1432.00 L:1430.00 C:1432.00 V:16460
+2025-08-12 13:02:29,638 - root - INFO - Final calculated values - Avg: 1981, MF: 33126, NetMF: -33126
+2025-08-12 13:02:29,643 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:00:00+05:30: O:1981.60 H:1982.00 L:1980.60 C:1982.00 V:16722
+2025-08-12 13:02:29,646 - root - INFO - Final calculated values - Avg: 1428, MF: 10397, NetMF: 10397
+2025-08-12 13:02:29,650 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:00:00+05:30: O:1428.70 H:1429.00 L:1428.00 C:1428.90 V:7281
+2025-08-12 13:02:29,652 - root - INFO - Final calculated values - Avg: 2491, MF: 13032, NetMF: -13032
+2025-08-12 13:02:29,656 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:00:00+05:30: O:2490.20 H:2492.60 L:2490.00 C:2491.70 V:5232
+2025-08-12 13:02:29,659 - root - INFO - Final calculated values - Avg: 417, MF: 69473, NetMF: -69473
+2025-08-12 13:02:29,663 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:00:00+05:30: O:417.20 H:417.35 L:417.05 C:417.25 V:166602
+2025-08-12 13:02:29,665 - root - INFO - Final calculated values - Avg: 824, MF: 16548, NetMF: -16548
+2025-08-12 13:02:29,668 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:00:00+05:30: O:824.15 H:824.25 L:824.00 C:824.25 V:20083
+2025-08-12 13:02:29,670 - root - INFO - Final calculated values - Avg: 1851, MF: 34952, NetMF: -34952
+2025-08-12 13:02:29,674 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:00:00+05:30: O:1851.10 H:1852.10 L:1851.00 C:1851.30 V:18883
+2025-08-12 13:02:29,676 - root - INFO - Final calculated values - Avg: 3700, MF: 40244, NetMF: -40244
+2025-08-12 13:02:29,680 - root - INFO - Saved candle: LT.NS 2025-08-12 13:00:00+05:30: O:3699.90 H:3703.00 L:3697.10 C:3703.00 V:10877
+2025-08-12 13:02:29,681 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:07:02,172 - root - INFO - Starting Stock Tracker v1.0.0
+2025-08-12 13:07:02,172 - root - INFO - Starting GUI mode
+2025-08-12 13:07:02,821 - root - INFO - Data fetcher initialized successfully
+2025-08-12 13:07:02,823 - root - INFO - Database initialized successfully
+2025-08-12 13:07:02,824 - root - INFO - Database initialized successfully
+2025-08-12 13:07:02,926 - root - INFO - Starting Stock Tracker GUI
+2025-08-12 13:07:05,598 - root - INFO - Data scheduler started (market hours only: True)
+2025-08-12 13:07:05,599 - root - INFO - Stock tracking started from GUI
+2025-08-12 13:12:05,709 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:12:05
+2025-08-12 13:12:05,721 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:12:07,117 - root - INFO - Successfully fetched data for RELIANCE.NS: $1391.00
+2025-08-12 13:12:07,411 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:12:07,537 - root - INFO - Successfully fetched data for TCS.NS: $3053.30
+2025-08-12 13:12:07,642 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:12:07,776 - root - INFO - Successfully fetched data for INFY.NS: $1431.00
+2025-08-12 13:12:07,882 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:12:08,039 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1981.20
+2025-08-12 13:12:08,143 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:12:08,446 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1430.00
+2025-08-12 13:12:08,552 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:12:08,683 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2492.10
+2025-08-12 13:12:08,784 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:12:09,050 - root - INFO - Successfully fetched data for ITC.NS: $417.65
+2025-08-12 13:12:09,156 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:12:09,448 - root - INFO - Successfully fetched data for SBIN.NS: $823.85
+2025-08-12 13:12:09,554 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:12:09,838 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.30
+2025-08-12 13:12:09,944 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:12:10,253 - root - INFO - Successfully fetched data for LT.NS: $3699.50
+2025-08-12 13:12:10,359 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:12:10,361 - root - INFO - Final calculated values - Avg: 1390, MF: 71726, NetMF: -71726
+2025-08-12 13:12:10,521 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:10:00+05:30: O:1391.40 H:1392.00 L:1389.90 C:1391.00 V:51602
+2025-08-12 13:12:10,522 - root - INFO - Final calculated values - Avg: 3054, MF: 27195, NetMF: -27195
+2025-08-12 13:12:10,524 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:10:00+05:30: O:3055.30 H:3055.30 L:3053.00 C:3053.30 V:8905
+2025-08-12 13:12:10,525 - root - INFO - Final calculated values - Avg: 1431, MF: 25208, NetMF: -25208
+2025-08-12 13:12:10,526 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:10:00+05:30: O:1431.50 H:1432.00 L:1430.40 C:1431.00 V:17616
+2025-08-12 13:12:10,721 - root - INFO - Final calculated values - Avg: 1982, MF: 67677, NetMF: -67677
+2025-08-12 13:12:10,924 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:10:00+05:30: O:1982.50 H:1983.00 L:1981.00 C:1981.20 V:34146
+2025-08-12 13:12:10,926 - root - INFO - Final calculated values - Avg: 1429, MF: 76059, NetMF: 76059
+2025-08-12 13:12:10,930 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:10:00+05:30: O:1429.70 H:1430.20 L:1429.30 C:1430.00 V:53226
+2025-08-12 13:12:10,932 - root - INFO - Final calculated values - Avg: 2493, MF: 4524, NetMF: -4524
+2025-08-12 13:12:10,933 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:10:00+05:30: O:2492.60 H:2494.80 L:2492.10 C:2492.10 V:1815
+2025-08-12 13:12:10,934 - root - INFO - Final calculated values - Avg: 417, MF: 22722, NetMF: 22722
+2025-08-12 13:12:10,935 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:10:00+05:30: O:417.55 H:417.65 L:417.50 C:417.65 V:54491
+2025-08-12 13:12:10,935 - root - INFO - Final calculated values - Avg: 823, MF: 21223, NetMF: -21223
+2025-08-12 13:12:10,937 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:10:00+05:30: O:824.00 H:824.00 L:823.60 C:823.85 V:25788
+2025-08-12 13:12:11,123 - root - INFO - Final calculated values - Avg: 1851, MF: 14830, NetMF: -14830
+2025-08-12 13:12:11,125 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:10:00+05:30: O:1851.80 H:1852.30 L:1851.10 C:1851.30 V:8012
+2025-08-12 13:12:11,126 - root - INFO - Final calculated values - Avg: 3700, MF: 29600, NetMF: -29600
+2025-08-12 13:12:11,128 - root - INFO - Saved candle: LT.NS 2025-08-12 13:10:00+05:30: O:3702.00 H:3702.30 L:3699.50 C:3699.50 V:8000
+2025-08-12 13:12:11,129 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:17:11,234 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:17:11
+2025-08-12 13:17:11,241 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:17:12,508 - root - INFO - Successfully fetched data for RELIANCE.NS: $1388.30
+2025-08-12 13:17:12,614 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:17:12,936 - root - INFO - Successfully fetched data for TCS.NS: $3051.60
+2025-08-12 13:17:13,038 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:17:13,362 - root - INFO - Successfully fetched data for INFY.NS: $1430.20
+2025-08-12 13:17:13,469 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:17:13,836 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1978.50
+2025-08-12 13:17:13,942 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:17:14,276 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1427.50
+2025-08-12 13:17:14,382 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:17:14,874 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2491.10
+2025-08-12 13:17:14,977 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:17:15,478 - root - INFO - Successfully fetched data for ITC.NS: $417.25
+2025-08-12 13:17:15,649 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:17:15,979 - root - INFO - Successfully fetched data for SBIN.NS: $823.00
+2025-08-12 13:17:16,253 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:17:16,582 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.30
+2025-08-12 13:17:16,686 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:17:17,033 - root - INFO - Successfully fetched data for LT.NS: $3696.10
+2025-08-12 13:17:17,258 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:17:17,261 - root - INFO - Final calculated values - Avg: 1388, MF: 77573, NetMF: -149299
+2025-08-12 13:17:17,264 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:15:00+05:30: O:1389.60 H:1389.80 L:1387.00 C:1388.30 V:55889
+2025-08-12 13:17:17,265 - root - INFO - Final calculated values - Avg: 3052, MF: 32262, NetMF: -59457
+2025-08-12 13:17:17,268 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:15:00+05:30: O:3054.10 H:3054.20 L:3051.60 C:3051.60 V:10571
+2025-08-12 13:17:17,269 - root - INFO - Final calculated values - Avg: 1430, MF: 30087, NetMF: -55295
+2025-08-12 13:17:17,270 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:15:00+05:30: O:1430.80 H:1431.00 L:1430.00 C:1430.20 V:21040
+2025-08-12 13:17:17,272 - root - INFO - Final calculated values - Avg: 1979, MF: 81803, NetMF: -149480
+2025-08-12 13:17:17,274 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:15:00+05:30: O:1980.70 H:1981.00 L:1978.00 C:1978.50 V:41336
+2025-08-12 13:17:17,358 - root - INFO - Final calculated values - Avg: 1428, MF: 40949, NetMF: 35110
+2025-08-12 13:17:17,361 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:15:00+05:30: O:1429.10 H:1429.10 L:1427.10 C:1427.50 V:28676
+2025-08-12 13:17:17,363 - root - INFO - Final calculated values - Avg: 2491, MF: 7702, NetMF: -12226
+2025-08-12 13:17:17,365 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:15:00+05:30: O:2493.00 H:2493.00 L:2490.10 C:2491.10 V:3092
+2025-08-12 13:17:17,368 - root - INFO - Final calculated values - Avg: 417, MF: 16984, NetMF: 39706
+2025-08-12 13:17:17,369 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:15:00+05:30: O:417.70 H:417.70 L:417.20 C:417.25 V:40731
+2025-08-12 13:17:17,370 - root - INFO - Final calculated values - Avg: 823, MF: 44246, NetMF: -65469
+2025-08-12 13:17:17,372 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:15:00+05:30: O:823.50 H:823.55 L:822.70 C:823.00 V:53763
+2025-08-12 13:17:17,373 - root - INFO - Final calculated values - Avg: 1851, MF: 35111, NetMF: -49941
+2025-08-12 13:17:17,376 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:15:00+05:30: O:1852.00 H:1852.00 L:1850.60 C:1851.30 V:18969
+2025-08-12 13:17:17,377 - root - INFO - Final calculated values - Avg: 3697, MF: 28111, NetMF: -57711
+2025-08-12 13:17:17,378 - root - INFO - Saved candle: LT.NS 2025-08-12 13:15:00+05:30: O:3699.60 H:3699.60 L:3695.00 C:3696.10 V:7604
+2025-08-12 13:17:17,379 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:22:17,431 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:22:17
+2025-08-12 13:22:17,436 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:22:17,882 - root - INFO - Successfully fetched data for RELIANCE.NS: $1388.50
+2025-08-12 13:22:17,988 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:22:18,105 - root - INFO - Successfully fetched data for TCS.NS: $3055.10
+2025-08-12 13:22:18,324 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:22:18,453 - root - INFO - Successfully fetched data for INFY.NS: $1432.50
+2025-08-12 13:22:18,648 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:22:18,754 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1979.50
+2025-08-12 13:22:18,867 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:22:18,993 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1427.40
+2025-08-12 13:22:19,107 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:22:19,332 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2492.60
+2025-08-12 13:22:19,435 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:22:19,558 - root - INFO - Successfully fetched data for ITC.NS: $416.95
+2025-08-12 13:22:19,659 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:22:19,766 - root - INFO - Successfully fetched data for SBIN.NS: $822.80
+2025-08-12 13:22:19,871 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:22:20,004 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.50
+2025-08-12 13:22:20,146 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:22:20,272 - root - INFO - Successfully fetched data for LT.NS: $3698.00
+2025-08-12 13:22:20,378 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:22:20,484 - root - INFO - Final calculated values - Avg: 1388, MF: 40170, NetMF: -189469
+2025-08-12 13:22:20,487 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:20:00+05:30: O:1388.00 H:1389.00 L:1387.70 C:1388.50 V:28941
+2025-08-12 13:22:20,490 - root - INFO - Final calculated values - Avg: 3054, MF: 28698, NetMF: -30759
+2025-08-12 13:22:20,493 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:20:00+05:30: O:3053.40 H:3055.10 L:3053.30 C:3055.10 V:9397
+2025-08-12 13:22:20,496 - root - INFO - Final calculated values - Avg: 1431, MF: 63888, NetMF: 8593
+2025-08-12 13:22:20,499 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:20:00+05:30: O:1431.10 H:1432.80 L:1431.00 C:1432.50 V:44646
+2025-08-12 13:22:20,502 - root - INFO - Final calculated values - Avg: 1979, MF: 142252, NetMF: -291732
+2025-08-12 13:22:20,505 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:20:00+05:30: O:1980.00 H:1980.60 L:1979.00 C:1979.50 V:71881
+2025-08-12 13:22:20,507 - root - INFO - Final calculated values - Avg: 1427, MF: 56325, NetMF: -21215
+2025-08-12 13:22:20,510 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:20:00+05:30: O:1428.00 H:1428.50 L:1427.00 C:1427.40 V:39471
+2025-08-12 13:22:20,512 - root - INFO - Final calculated values - Avg: 2492, MF: 13162, NetMF: 936
+2025-08-12 13:22:20,515 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:20:00+05:30: O:2491.80 H:2493.60 L:2490.50 C:2492.60 V:5282
+2025-08-12 13:22:20,517 - root - INFO - Final calculated values - Avg: 417, MF: 16520, NetMF: 56226
+2025-08-12 13:22:20,519 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:20:00+05:30: O:417.10 H:417.35 L:416.95 C:416.95 V:39618
+2025-08-12 13:22:20,521 - root - INFO - Final calculated values - Avg: 822, MF: 31877, NetMF: -97346
+2025-08-12 13:22:20,523 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:20:00+05:30: O:822.95 H:822.95 L:822.50 C:822.80 V:38780
+2025-08-12 13:22:20,525 - root - INFO - Final calculated values - Avg: 1851, MF: 49429, NetMF: -99370
+2025-08-12 13:22:20,527 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:20:00+05:30: O:1851.20 H:1852.00 L:1851.00 C:1851.50 V:26704
+2025-08-12 13:22:20,529 - root - INFO - Final calculated values - Avg: 3698, MF: 39642, NetMF: -18069
+2025-08-12 13:22:20,531 - root - INFO - Saved candle: LT.NS 2025-08-12 13:20:00+05:30: O:3698.10 H:3698.80 L:3697.40 C:3698.00 V:10720
+2025-08-12 13:22:20,533 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:27:20,689 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:27:20
+2025-08-12 13:27:20,694 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:27:21,058 - root - INFO - Successfully fetched data for RELIANCE.NS: $1385.60
+2025-08-12 13:27:21,313 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:27:21,534 - root - INFO - Successfully fetched data for TCS.NS: $3052.30
+2025-08-12 13:27:21,712 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:27:21,830 - root - INFO - Successfully fetched data for INFY.NS: $1432.00
+2025-08-12 13:27:21,930 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:27:22,073 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1977.50
+2025-08-12 13:27:22,178 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:27:22,354 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1425.50
+2025-08-12 13:27:22,520 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:27:22,744 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2490.90
+2025-08-12 13:27:22,849 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:27:23,151 - root - INFO - Successfully fetched data for ITC.NS: $416.55
+2025-08-12 13:27:23,257 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:27:23,567 - root - INFO - Successfully fetched data for SBIN.NS: $821.75
+2025-08-12 13:27:23,673 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:27:23,992 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1850.80
+2025-08-12 13:27:24,097 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:27:24,353 - root - INFO - Successfully fetched data for LT.NS: $3693.50
+2025-08-12 13:27:24,459 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:27:24,628 - root - INFO - Final calculated values - Avg: 1387, MF: 30017, NetMF: -219486
+2025-08-12 13:27:24,826 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:25:00+05:30: O:1387.80 H:1388.70 L:1385.60 C:1385.60 V:21642
+2025-08-12 13:27:24,828 - root - INFO - Final calculated values - Avg: 3053, MF: 25187, NetMF: -55946
+2025-08-12 13:27:24,832 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:25:00+05:30: O:3054.70 H:3055.10 L:3052.30 C:3052.30 V:8250
+2025-08-12 13:27:24,833 - root - INFO - Final calculated values - Avg: 1433, MF: 63275, NetMF: 71868
+2025-08-12 13:27:24,835 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:25:00+05:30: O:1433.60 H:1434.30 L:1432.00 C:1432.00 V:44156
+2025-08-12 13:27:24,836 - root - INFO - Final calculated values - Avg: 1978, MF: 31246, NetMF: -322978
+2025-08-12 13:27:24,837 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:25:00+05:30: O:1979.50 H:1979.90 L:1977.50 C:1977.50 V:15797
+2025-08-12 13:27:24,838 - root - INFO - Final calculated values - Avg: 1426, MF: 22710, NetMF: -43925
+2025-08-12 13:27:24,840 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:25:00+05:30: O:1426.50 H:1427.40 L:1425.50 C:1425.50 V:15926
+2025-08-12 13:27:24,841 - root - INFO - Final calculated values - Avg: 2492, MF: 7112, NetMF: 8048
+2025-08-12 13:27:24,842 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:25:00+05:30: O:2492.40 H:2493.20 L:2490.90 C:2490.90 V:2854
+2025-08-12 13:27:24,843 - root - INFO - Final calculated values - Avg: 416, MF: 9561, NetMF: 46665
+2025-08-12 13:27:24,844 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:25:00+05:30: O:416.95 H:417.10 L:416.55 C:416.55 V:22985
+2025-08-12 13:27:24,845 - root - INFO - Final calculated values - Avg: 822, MF: 25186, NetMF: -122532
+2025-08-12 13:27:24,847 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:25:00+05:30: O:822.45 H:822.55 L:821.75 C:821.75 V:30640
+2025-08-12 13:27:24,848 - root - INFO - Final calculated values - Avg: 1851, MF: 35550, NetMF: -134920
+2025-08-12 13:27:24,849 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:25:00+05:30: O:1851.80 H:1851.80 L:1850.80 C:1850.80 V:19206
+2025-08-12 13:27:24,850 - root - INFO - Final calculated values - Avg: 3698, MF: 179478, NetMF: -197547
+2025-08-12 13:27:24,851 - root - INFO - Saved candle: LT.NS 2025-08-12 13:25:00+05:30: O:3702.40 H:3704.40 L:3693.50 C:3693.50 V:48534
+2025-08-12 13:27:24,852 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:32:24,974 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:32:24
+2025-08-12 13:32:25,092 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:32:26,464 - root - INFO - Successfully fetched data for RELIANCE.NS: $1386.80
+2025-08-12 13:32:26,605 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:32:27,049 - root - INFO - Successfully fetched data for TCS.NS: $3048.10
+2025-08-12 13:32:27,150 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:32:27,630 - root - INFO - Successfully fetched data for INFY.NS: $1433.70
+2025-08-12 13:32:27,818 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:32:28,247 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1978.70
+2025-08-12 13:32:28,348 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:32:28,683 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1426.10
+2025-08-12 13:32:28,793 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:32:29,263 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2494.00
+2025-08-12 13:32:29,373 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:32:29,861 - root - INFO - Successfully fetched data for ITC.NS: $416.90
+2025-08-12 13:32:29,965 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:32:30,485 - root - INFO - Successfully fetched data for SBIN.NS: $822.75
+2025-08-12 13:32:30,595 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:32:31,086 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.80
+2025-08-12 13:32:31,248 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:32:31,583 - root - INFO - Successfully fetched data for LT.NS: $3696.00
+2025-08-12 13:32:31,694 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:32:31,747 - root - INFO - Final calculated values - Avg: 1387, MF: 27487, NetMF: -246973
+2025-08-12 13:32:31,750 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:30:00+05:30: O:1387.10 H:1387.70 L:1386.50 C:1386.80 V:19818
+2025-08-12 13:32:31,750 - root - INFO - Final calculated values - Avg: 3050, MF: 27184, NetMF: -83130
+2025-08-12 13:32:31,752 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:30:00+05:30: O:3052.60 H:3052.60 L:3048.10 C:3048.10 V:8913
+2025-08-12 13:32:31,753 - root - INFO - Final calculated values - Avg: 1434, MF: 28517, NetMF: 100385
+2025-08-12 13:32:31,754 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:30:00+05:30: O:1433.90 H:1434.80 L:1433.70 C:1433.70 V:19887
+2025-08-12 13:32:31,755 - root - INFO - Final calculated values - Avg: 1979, MF: 24116, NetMF: -298862
+2025-08-12 13:32:31,756 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:30:00+05:30: O:1979.20 H:1980.00 L:1978.50 C:1978.70 V:12186
+2025-08-12 13:32:31,757 - root - INFO - Final calculated values - Avg: 1426, MF: 22325, NetMF: -66250
+2025-08-12 13:32:31,758 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:30:00+05:30: O:1426.40 H:1427.10 L:1426.00 C:1426.10 V:15656
+2025-08-12 13:32:31,760 - root - INFO - Final calculated values - Avg: 2494, MF: 9172, NetMF: 17220
+2025-08-12 13:32:31,761 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:30:00+05:30: O:2494.70 H:2495.30 L:2494.00 C:2494.00 V:3678
+2025-08-12 13:32:31,762 - root - INFO - Final calculated values - Avg: 417, MF: 16223, NetMF: 62888
+2025-08-12 13:32:31,763 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:30:00+05:30: O:417.00 H:417.20 L:416.90 C:416.90 V:38905
+2025-08-12 13:32:31,764 - root - INFO - Final calculated values - Avg: 822, MF: 25700, NetMF: -148232
+2025-08-12 13:32:31,765 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:30:00+05:30: O:822.95 H:823.05 L:822.65 C:822.75 V:31266
+2025-08-12 13:32:31,766 - root - INFO - Final calculated values - Avg: 1852, MF: 38088, NetMF: -96832
+2025-08-12 13:32:31,768 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:30:00+05:30: O:1852.50 H:1852.50 L:1851.80 C:1851.80 V:20566
+2025-08-12 13:32:31,769 - root - INFO - Final calculated values - Avg: 3696, MF: 13593, NetMF: -211140
+2025-08-12 13:32:31,770 - root - INFO - Saved candle: LT.NS 2025-08-12 13:30:00+05:30: O:3695.70 H:3697.00 L:3695.30 C:3696.00 V:3678
+2025-08-12 13:32:31,771 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:37:32,679 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:37:32
+2025-08-12 13:37:32,683 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:37:33,068 - root - INFO - Successfully fetched data for RELIANCE.NS: $1386.60
+2025-08-12 13:37:33,179 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:37:33,469 - root - INFO - Successfully fetched data for TCS.NS: $3048.60
+2025-08-12 13:37:33,576 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:37:33,710 - root - INFO - Successfully fetched data for INFY.NS: $1433.80
+2025-08-12 13:37:33,863 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:37:33,965 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1977.60
+2025-08-12 13:37:34,076 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:37:34,271 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1425.80
+2025-08-12 13:37:34,465 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:37:34,602 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2493.60
+2025-08-12 13:37:34,713 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:37:34,888 - root - INFO - Successfully fetched data for ITC.NS: $417.05
+2025-08-12 13:37:34,998 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:37:35,121 - root - INFO - Successfully fetched data for SBIN.NS: $822.70
+2025-08-12 13:37:35,233 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:37:35,349 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.70
+2025-08-12 13:37:35,473 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:37:35,593 - root - INFO - Successfully fetched data for LT.NS: $3697.20
+2025-08-12 13:37:35,697 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:37:35,699 - root - INFO - Final calculated values - Avg: 1386, MF: 21729, NetMF: -268702
+2025-08-12 13:37:35,702 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:35:00+05:30: O:1386.50 H:1386.90 L:1386.30 C:1386.60 V:15678
+2025-08-12 13:37:35,703 - root - INFO - Final calculated values - Avg: 3048, MF: 16254, NetMF: -99384
+2025-08-12 13:37:35,706 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:35:00+05:30: O:3047.90 H:3049.40 L:3047.90 C:3048.60 V:5333
+2025-08-12 13:37:35,707 - root - INFO - Final calculated values - Avg: 1434, MF: 30397, NetMF: 130782
+2025-08-12 13:37:35,710 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:35:00+05:30: O:1434.30 H:1434.50 L:1433.50 C:1433.80 V:21198
+2025-08-12 13:37:35,711 - root - INFO - Final calculated values - Avg: 1977, MF: 38332, NetMF: -337194
+2025-08-12 13:37:35,713 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:35:00+05:30: O:1978.10 H:1978.20 L:1977.30 C:1977.60 V:19389
+2025-08-12 13:37:35,714 - root - INFO - Final calculated values - Avg: 1425, MF: 28675, NetMF: -94925
+2025-08-12 13:37:35,716 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:35:00+05:30: O:1425.50 H:1426.20 L:1425.10 C:1425.80 V:20123
+2025-08-12 13:37:35,718 - root - INFO - Final calculated values - Avg: 2493, MF: 5013, NetMF: 12207
+2025-08-12 13:37:35,720 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:35:00+05:30: O:2494.20 H:2494.50 L:2493.30 C:2493.60 V:2011
+2025-08-12 13:37:35,721 - root - INFO - Final calculated values - Avg: 417, MF: 6038, NetMF: 68926
+2025-08-12 13:37:35,723 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:35:00+05:30: O:417.05 H:417.15 L:417.00 C:417.05 V:14481
+2025-08-12 13:37:35,724 - root - INFO - Final calculated values - Avg: 822, MF: 21327, NetMF: -169559
+2025-08-12 13:37:35,727 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:35:00+05:30: O:822.75 H:822.90 L:822.45 C:822.70 V:25946
+2025-08-12 13:37:35,728 - root - INFO - Final calculated values - Avg: 1851, MF: 28788, NetMF: -125620
+2025-08-12 13:37:35,730 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:35:00+05:30: O:1852.30 H:1852.30 L:1851.60 C:1851.70 V:15553
+2025-08-12 13:37:35,731 - root - INFO - Final calculated values - Avg: 3696, MF: 15770, NetMF: -226910
+2025-08-12 13:37:35,733 - root - INFO - Saved candle: LT.NS 2025-08-12 13:35:00+05:30: O:3696.90 H:3697.20 L:3696.00 C:3697.20 V:4267
+2025-08-12 13:37:35,734 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:42:36,638 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:42:36
+2025-08-12 13:42:36,800 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:42:37,146 - root - INFO - Successfully fetched data for RELIANCE.NS: $1385.80
+2025-08-12 13:42:37,254 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:42:37,366 - root - INFO - Successfully fetched data for TCS.NS: $3047.50
+2025-08-12 13:42:37,477 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:42:37,721 - root - INFO - Successfully fetched data for INFY.NS: $1434.10
+2025-08-12 13:42:37,831 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:42:37,945 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1977.00
+2025-08-12 13:42:38,057 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:42:38,332 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1425.10
+2025-08-12 13:42:38,437 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:42:38,741 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2492.30
+2025-08-12 13:42:38,851 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:42:39,159 - root - INFO - Successfully fetched data for ITC.NS: $417.05
+2025-08-12 13:42:39,270 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:42:39,388 - root - INFO - Successfully fetched data for SBIN.NS: $822.85
+2025-08-12 13:42:39,499 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:42:39,746 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.50
+2025-08-12 13:42:39,857 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:42:39,969 - root - INFO - Successfully fetched data for LT.NS: $3694.00
+2025-08-12 13:42:40,080 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:42:40,226 - root - INFO - Final calculated values - Avg: 1386, MF: 29043, NetMF: -297745
+2025-08-12 13:42:40,230 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:40:00+05:30: O:1387.00 H:1387.00 L:1385.80 C:1385.80 V:20955
+2025-08-12 13:42:40,232 - root - INFO - Final calculated values - Avg: 3047, MF: 20999, NetMF: -120383
+2025-08-12 13:42:40,235 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:40:00+05:30: O:3048.70 H:3048.80 L:3047.00 C:3047.50 V:6892
+2025-08-12 13:42:40,235 - root - INFO - Final calculated values - Avg: 1434, MF: 22971, NetMF: 153753
+2025-08-12 13:42:40,237 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:40:00+05:30: O:1433.80 H:1434.40 L:1433.70 C:1434.10 V:16019
+2025-08-12 13:42:40,238 - root - INFO - Final calculated values - Avg: 1977, MF: 36665, NetMF: -373859
+2025-08-12 13:42:40,240 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:40:00+05:30: O:1978.40 H:1978.60 L:1976.30 C:1977.00 V:18546
+2025-08-12 13:42:40,240 - root - INFO - Final calculated values - Avg: 1424, MF: 79275, NetMF: -174200
+2025-08-12 13:42:40,242 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:40:00+05:30: O:1425.00 H:1425.40 L:1424.20 C:1425.10 V:55671
+2025-08-12 13:42:40,243 - root - INFO - Final calculated values - Avg: 2493, MF: 10650, NetMF: 22857
+2025-08-12 13:42:40,245 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:40:00+05:30: O:2494.90 H:2494.90 L:2491.70 C:2492.30 V:4272
+2025-08-12 13:42:40,245 - root - INFO - Final calculated values - Avg: 417, MF: 5887, NetMF: 74813
+2025-08-12 13:42:40,247 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:40:00+05:30: O:417.20 H:417.25 L:417.05 C:417.05 V:14119
+2025-08-12 13:42:40,248 - root - INFO - Final calculated values - Avg: 822, MF: 16589, NetMF: -186148
+2025-08-12 13:42:40,250 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:40:00+05:30: O:823.00 H:823.00 L:822.80 C:822.85 V:20182
+2025-08-12 13:42:40,251 - root - INFO - Final calculated values - Avg: 1852, MF: 41123, NetMF: -84497
+2025-08-12 13:42:40,252 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:40:00+05:30: O:1852.80 H:1852.80 L:1851.50 C:1851.50 V:22205
+2025-08-12 13:42:40,253 - root - INFO - Final calculated values - Avg: 3696, MF: 21203, NetMF: -248113
+2025-08-12 13:42:40,255 - root - INFO - Saved candle: LT.NS 2025-08-12 13:40:00+05:30: O:3698.50 H:3698.50 L:3694.00 C:3694.00 V:5737
+2025-08-12 13:42:40,255 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:47:41,116 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:47:41
+2025-08-12 13:47:41,118 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:47:41,539 - root - INFO - Successfully fetched data for RELIANCE.NS: $1386.60
+2025-08-12 13:47:41,649 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:47:41,951 - root - INFO - Successfully fetched data for TCS.NS: $3048.80
+2025-08-12 13:47:42,055 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:47:42,169 - root - INFO - Successfully fetched data for INFY.NS: $1436.00
+2025-08-12 13:47:42,270 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:47:42,381 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1977.40
+2025-08-12 13:47:42,491 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:47:42,609 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1425.50
+2025-08-12 13:47:42,747 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:47:42,954 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2494.50
+2025-08-12 13:47:43,143 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:47:43,260 - root - INFO - Successfully fetched data for ITC.NS: $417.25
+2025-08-12 13:47:43,556 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:47:43,756 - root - INFO - Successfully fetched data for SBIN.NS: $823.50
+2025-08-12 13:47:43,866 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:47:43,990 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1852.20
+2025-08-12 13:47:44,101 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:47:44,375 - root - INFO - Successfully fetched data for LT.NS: $3698.50
+2025-08-12 13:47:44,485 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:47:44,657 - root - INFO - Final calculated values - Avg: 1386, MF: 45596, NetMF: -343341
+2025-08-12 13:47:44,661 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:45:00+05:30: O:1386.90 H:1387.00 L:1385.90 C:1386.60 V:32898
+2025-08-12 13:47:44,664 - root - INFO - Final calculated values - Avg: 3047, MF: 21063, NetMF: -141446
+2025-08-12 13:47:44,667 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:45:00+05:30: O:3046.10 H:3048.80 L:3046.10 C:3048.80 V:6913
+2025-08-12 13:47:44,668 - root - INFO - Final calculated values - Avg: 1435, MF: 29891, NetMF: 183644
+2025-08-12 13:47:44,672 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:45:00+05:30: O:1434.50 H:1436.00 L:1434.10 C:1436.00 V:20830
+2025-08-12 13:47:44,674 - root - INFO - Final calculated values - Avg: 1977, MF: 31770, NetMF: -405629
+2025-08-12 13:47:44,678 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:45:00+05:30: O:1976.60 H:1977.60 L:1976.50 C:1977.40 V:16070
+2025-08-12 13:47:44,679 - root - INFO - Final calculated values - Avg: 1424, MF: 22907, NetMF: -197107
+2025-08-12 13:47:44,682 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:45:00+05:30: O:1424.90 H:1425.50 L:1424.20 C:1425.50 V:16087
+2025-08-12 13:47:44,684 - root - INFO - Final calculated values - Avg: 2493, MF: 6125, NetMF: 28982
+2025-08-12 13:47:44,688 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:45:00+05:30: O:2493.70 H:2494.50 L:2492.60 C:2494.50 V:2457
+2025-08-12 13:47:44,689 - root - INFO - Final calculated values - Avg: 417, MF: 9570, NetMF: 84383
+2025-08-12 13:47:44,692 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:45:00+05:30: O:417.30 H:417.30 L:417.15 C:417.25 V:22950
+2025-08-12 13:47:44,694 - root - INFO - Final calculated values - Avg: 823, MF: 24536, NetMF: -161612
+2025-08-12 13:47:44,697 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:45:00+05:30: O:823.05 H:823.50 L:823.05 C:823.50 V:29813
+2025-08-12 13:47:44,698 - root - INFO - Final calculated values - Avg: 1851, MF: 23159, NetMF: -107656
+2025-08-12 13:47:44,701 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:45:00+05:30: O:1852.00 H:1852.20 L:1851.50 C:1852.20 V:12512
+2025-08-12 13:47:44,703 - root - INFO - Final calculated values - Avg: 3696, MF: 59391, NetMF: -307504
+2025-08-12 13:47:44,705 - root - INFO - Saved candle: LT.NS 2025-08-12 13:45:00+05:30: O:3693.30 H:3698.90 L:3693.10 C:3698.50 V:16069
+2025-08-12 13:47:44,706 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:52:44,836 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:52:44
+2025-08-12 13:52:44,843 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:52:45,156 - root - INFO - Successfully fetched data for RELIANCE.NS: $1387.30
+2025-08-12 13:52:45,262 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:52:45,436 - root - INFO - Successfully fetched data for TCS.NS: $3047.90
+2025-08-12 13:52:45,541 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:52:45,820 - root - INFO - Successfully fetched data for INFY.NS: $1435.10
+2025-08-12 13:52:45,923 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:52:46,230 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1978.10
+2025-08-12 13:52:46,413 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:52:46,555 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1425.00
+2025-08-12 13:52:46,665 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:52:46,951 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2493.40
+2025-08-12 13:52:47,057 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:52:47,182 - root - INFO - Successfully fetched data for ITC.NS: $417.30
+2025-08-12 13:52:47,287 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:52:47,417 - root - INFO - Successfully fetched data for SBIN.NS: $823.55
+2025-08-12 13:52:47,522 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:52:47,648 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.40
+2025-08-12 13:52:47,754 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:52:47,925 - root - INFO - Successfully fetched data for LT.NS: $3702.50
+2025-08-12 13:52:48,030 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:52:48,201 - root - INFO - Final calculated values - Avg: 1386, MF: 19090, NetMF: -362431
+2025-08-12 13:52:48,205 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:50:00+05:30: O:1385.60 H:1387.30 L:1385.60 C:1387.30 V:13774
+2025-08-12 13:52:48,209 - root - INFO - Final calculated values - Avg: 3047, MF: 22657, NetMF: -164103
+2025-08-12 13:52:48,211 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:50:00+05:30: O:3047.00 H:3048.30 L:3046.10 C:3047.90 V:7436
+2025-08-12 13:52:48,213 - root - INFO - Final calculated values - Avg: 1435, MF: 238146, NetMF: 421790
+2025-08-12 13:52:48,215 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:50:00+05:30: O:1435.10 H:1435.40 L:1435.00 C:1435.10 V:165956
+2025-08-12 13:52:48,216 - root - INFO - Final calculated values - Avg: 1977, MF: 25319, NetMF: -430948
+2025-08-12 13:52:48,218 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:50:00+05:30: O:1976.70 H:1978.10 L:1976.50 C:1978.10 V:12807
+2025-08-12 13:52:48,219 - root - INFO - Final calculated values - Avg: 1424, MF: 115994, NetMF: -313101
+2025-08-12 13:52:48,220 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:50:00+05:30: O:1424.30 H:1425.10 L:1423.50 C:1425.00 V:81457
+2025-08-12 13:52:48,221 - root - INFO - Final calculated values - Avg: 2493, MF: 5771, NetMF: 34753
+2025-08-12 13:52:48,223 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:50:00+05:30: O:2492.50 H:2494.10 L:2492.30 C:2493.40 V:2315
+2025-08-12 13:52:48,224 - root - INFO - Final calculated values - Avg: 417, MF: 6668, NetMF: 91051
+2025-08-12 13:52:48,225 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:50:00+05:30: O:417.25 H:417.30 L:417.20 C:417.30 V:15991
+2025-08-12 13:52:48,227 - root - INFO - Final calculated values - Avg: 823, MF: 17101, NetMF: -178713
+2025-08-12 13:52:48,228 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:50:00+05:30: O:823.35 H:823.55 L:823.00 C:823.55 V:20780
+2025-08-12 13:52:48,230 - root - INFO - Final calculated values - Avg: 1851, MF: 25788, NetMF: -133444
+2025-08-12 13:52:48,232 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:50:00+05:30: O:1851.40 H:1851.80 L:1850.70 C:1851.40 V:13932
+2025-08-12 13:52:48,233 - root - INFO - Final calculated values - Avg: 3701, MF: 15100, NetMF: -292404
+2025-08-12 13:52:48,234 - root - INFO - Saved candle: LT.NS 2025-08-12 13:50:00+05:30: O:3699.90 H:3702.50 L:3699.80 C:3702.50 V:4080
+2025-08-12 13:52:48,235 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 13:57:48,285 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 13:57:48
+2025-08-12 13:57:48,287 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 13:57:48,624 - root - INFO - Successfully fetched data for RELIANCE.NS: $1386.90
+2025-08-12 13:57:48,729 - root - INFO - Fetching data for TCS.NS
+2025-08-12 13:57:49,008 - root - INFO - Successfully fetched data for TCS.NS: $3048.00
+2025-08-12 13:57:49,113 - root - INFO - Fetching data for INFY.NS
+2025-08-12 13:57:49,228 - root - INFO - Successfully fetched data for INFY.NS: $1435.20
+2025-08-12 13:57:49,331 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 13:57:49,442 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1976.50
+2025-08-12 13:57:49,547 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 13:57:49,807 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1424.70
+2025-08-12 13:57:49,993 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 13:57:50,215 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2494.60
+2025-08-12 13:57:50,320 - root - INFO - Fetching data for ITC.NS
+2025-08-12 13:57:50,612 - root - INFO - Successfully fetched data for ITC.NS: $417.15
+2025-08-12 13:57:50,717 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 13:57:51,018 - root - INFO - Successfully fetched data for SBIN.NS: $823.35
+2025-08-12 13:57:51,123 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 13:57:51,419 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1851.10
+2025-08-12 13:57:51,522 - root - INFO - Fetching data for LT.NS
+2025-08-12 13:57:51,813 - root - INFO - Successfully fetched data for LT.NS: $3705.30
+2025-08-12 13:57:51,919 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 13:57:52,105 - root - INFO - Final calculated values - Avg: 1386, MF: 67927, NetMF: -430358
+2025-08-12 13:57:52,109 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 13:55:00+05:30: O:1386.20 H:1386.90 L:1385.40 C:1386.90 V:49010
+2025-08-12 13:57:52,111 - root - INFO - Final calculated values - Avg: 3046, MF: 23152, NetMF: -187255
+2025-08-12 13:57:52,115 - root - INFO - Saved candle: TCS.NS 2025-08-12 13:55:00+05:30: O:3046.00 H:3048.00 L:3045.80 C:3048.00 V:7601
+2025-08-12 13:57:52,116 - root - INFO - Final calculated values - Avg: 1435, MF: 46376, NetMF: 468166
+2025-08-12 13:57:52,120 - root - INFO - Saved candle: INFY.NS 2025-08-12 13:55:00+05:30: O:1435.00 H:1435.60 L:1434.50 C:1435.20 V:32318
+2025-08-12 13:57:52,123 - root - INFO - Final calculated values - Avg: 1976, MF: 43551, NetMF: -474499
+2025-08-12 13:57:52,126 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 13:55:00+05:30: O:1976.90 H:1977.00 L:1976.30 C:1976.50 V:22040
+2025-08-12 13:57:52,128 - root - INFO - Final calculated values - Avg: 1424, MF: 52991, NetMF: -366092
+2025-08-12 13:57:52,131 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 13:55:00+05:30: O:1424.70 H:1425.20 L:1424.10 C:1424.70 V:37213
+2025-08-12 13:57:52,133 - root - INFO - Final calculated values - Avg: 2493, MF: 7670, NetMF: 42423
+2025-08-12 13:57:52,136 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 13:55:00+05:30: O:2493.80 H:2494.60 L:2493.30 C:2494.60 V:3077
+2025-08-12 13:57:52,139 - root - INFO - Final calculated values - Avg: 417, MF: 16986, NetMF: 108037
+2025-08-12 13:57:52,141 - root - INFO - Saved candle: ITC.NS 2025-08-12 13:55:00+05:30: O:417.25 H:417.30 L:417.15 C:417.15 V:40734
+2025-08-12 13:57:52,143 - root - INFO - Final calculated values - Avg: 823, MF: 25297, NetMF: -204010
+2025-08-12 13:57:52,146 - root - INFO - Saved candle: SBIN.NS 2025-08-12 13:55:00+05:30: O:823.50 H:823.60 L:823.05 C:823.35 V:30738
+2025-08-12 13:57:52,148 - root - INFO - Final calculated values - Avg: 1851, MF: 46700, NetMF: -180144
+2025-08-12 13:57:52,150 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 13:55:00+05:30: O:1851.50 H:1852.10 L:1850.40 C:1851.10 V:25230
+2025-08-12 13:57:52,152 - root - INFO - Final calculated values - Avg: 3704, MF: 23690, NetMF: -268714
+2025-08-12 13:57:52,154 - root - INFO - Saved candle: LT.NS 2025-08-12 13:55:00+05:30: O:3704.30 H:3705.30 L:3703.30 C:3705.30 V:6396
+2025-08-12 13:57:52,155 - root - INFO - Completed data collection: 10 new records saved
+2025-08-12 14:02:52,247 - root - INFO - Starting scheduled data collection. Market: OPEN at 2025-08-12 14:02:52
+2025-08-12 14:02:52,248 - root - INFO - Fetching data for RELIANCE.NS
+2025-08-12 14:02:53,280 - root - INFO - Successfully fetched data for RELIANCE.NS: $1385.70
+2025-08-12 14:02:53,381 - root - INFO - Fetching data for TCS.NS
+2025-08-12 14:02:53,739 - root - INFO - Successfully fetched data for TCS.NS: $3046.20
+2025-08-12 14:02:53,845 - root - INFO - Fetching data for INFY.NS
+2025-08-12 14:02:54,402 - root - INFO - Successfully fetched data for INFY.NS: $1435.30
+2025-08-12 14:02:54,507 - root - INFO - Fetching data for HDFCBANK.NS
+2025-08-12 14:02:54,864 - root - INFO - Successfully fetched data for HDFCBANK.NS: $1976.90
+2025-08-12 14:02:54,970 - root - INFO - Fetching data for ICICIBANK.NS
+2025-08-12 14:02:55,426 - root - INFO - Successfully fetched data for ICICIBANK.NS: $1425.70
+2025-08-12 14:02:55,532 - root - INFO - Fetching data for HINDUNILVR.NS
+2025-08-12 14:02:55,896 - root - INFO - Successfully fetched data for HINDUNILVR.NS: $2492.10
+2025-08-12 14:02:56,002 - root - INFO - Fetching data for ITC.NS
+2025-08-12 14:02:56,423 - root - INFO - Successfully fetched data for ITC.NS: $417.30
+2025-08-12 14:02:56,528 - root - INFO - Fetching data for SBIN.NS
+2025-08-12 14:02:57,014 - root - INFO - Successfully fetched data for SBIN.NS: $823.15
+2025-08-12 14:02:57,119 - root - INFO - Fetching data for BHARTIARTL.NS
+2025-08-12 14:02:57,474 - root - INFO - Successfully fetched data for BHARTIARTL.NS: $1850.70
+2025-08-12 14:02:57,580 - root - INFO - Fetching data for LT.NS
+2025-08-12 14:02:58,019 - root - INFO - Successfully fetched data for LT.NS: $3703.10
+2025-08-12 14:02:58,125 - root - INFO - Fetched data for 10/10 symbols
+2025-08-12 14:02:58,127 - root - INFO - Final calculated values - Avg: 1386, MF: 62576, NetMF: -492934
+2025-08-12 14:02:58,134 - root - INFO - Saved candle: RELIANCE.NS 2025-08-12 14:00:00+05:30: O:1388.00 H:1388.00 L:1385.70 C:1385.70 V:45149
+2025-08-12 14:02:58,259 - root - INFO - Final calculated values - Avg: 3048, MF: 20750, NetMF: -166505
+2025-08-12 14:02:58,264 - root - INFO - Saved candle: TCS.NS 2025-08-12 14:00:00+05:30: O:3050.70 H:3050.80 L:3046.20 C:3046.20 V:6808
+2025-08-12 14:02:58,265 - root - INFO - Final calculated values - Avg: 1435, MF: 45795, NetMF: 513961
+2025-08-12 14:02:58,267 - root - INFO - Saved candle: INFY.NS 2025-08-12 14:00:00+05:30: O:1436.50 H:1436.50 L:1435.00 C:1435.30 V:31913
+2025-08-12 14:02:58,268 - root - INFO - Final calculated values - Avg: 1978, MF: 55799, NetMF: -418700
+2025-08-12 14:02:58,270 - root - INFO - Saved candle: HDFCBANK.NS 2025-08-12 14:00:00+05:30: O:1979.50 H:1980.00 L:1976.90 C:1976.90 V:28210
+2025-08-12 14:02:58,271 - root - INFO - Final calculated values - Avg: 1426, MF: 29378, NetMF: -336714
+2025-08-12 14:02:58,273 - root - INFO - Saved candle: ICICIBANK.NS 2025-08-12 14:00:00+05:30: O:1427.20 H:1427.50 L:1425.50 C:1425.70 V:20602
+2025-08-12 14:02:58,274 - root - INFO - Final calculated values - Avg: 2494, MF: 7374, NetMF: 49797
+2025-08-12 14:02:58,276 - root - INFO - Saved candle: HINDUNILVR.NS 2025-08-12 14:00:00+05:30: O:2497.20 H:2497.50 L:2492.10 C:2492.10 V:2957
+2025-08-12 14:02:58,278 - root - INFO - Final calculated values - Avg: 417, MF: 12518, NetMF: 120555
+2025-08-12 14:02:58,280 - root - INFO - Saved candle: ITC.NS 2025-08-12 14:00:00+05:30: O:417.60 H:417.75 L:417.30 C:417.30 V:30020
+2025-08-12 14:02:58,282 - root - INFO - Final calculated values - Avg: 823, MF: 23788, NetMF: -227798
+2025-08-12 14:02:58,285 - root - INFO - Saved candle: SBIN.NS 2025-08-12 14:00:00+05:30: O:823.50 H:823.70 L:823.10 C:823.15 V:28905
+2025-08-12 14:02:58,287 - root - INFO - Final calculated values - Avg: 1852, MF: 28811, NetMF: -151333
+2025-08-12 14:02:58,288 - root - INFO - Saved candle: BHARTIARTL.NS 2025-08-12 14:00:00+05:30: O:1853.20 H:1853.60 L:1850.70 C:1850.70 V:15557
+2025-08-12 14:02:58,290 - root - INFO - Final calculated values - Avg: 3707, MF: 49977, NetMF: -218737
+2025-08-12 14:02:58,291 - root - INFO - Saved candle: LT.NS 2025-08-12 14:00:00+05:30: O:3711.00 H:3711.00 L:3703.00 C:3703.10 V:13482
+2025-08-12 14:02:58,293 - root - INFO - Completed data collection: 10 new records saved

@@ -23,7 +23,7 @@ class StockDatabase:
         try:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.cursor()
-                
+                #cursor.execute('DROP TABLE IF EXISTS stock_candles')
                 # Create stock_candles table
                 cursor.execute('''
                     CREATE TABLE IF NOT EXISTS stock_candles (
@@ -35,6 +35,9 @@ class StockDatabase:
                         low_price REAL NOT NULL,
                         close_price REAL NOT NULL,
                         volume INTEGER NOT NULL,
+                        avg_price REAL NOT NULL,
+                        money_flow REAL NOT NULL,
+                        net_mf REAL NOT NULL,
                         created_at TEXT NOT NULL,
                         UNIQUE(symbol, timestamp)
                     )
@@ -72,12 +75,25 @@ class StockDatabase:
         try:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.cursor()
+
+                # Calculate avg_price
+                avg_price = int(round((candle.high_price + candle.low_price) / 2, 2))
+            
+                # Calculate money_flow
+                money_flow = int(round((avg_price * candle.volume) / 1000, 2))
                 
+                # Calculate net_mf - need to check previous entries
+                net_mf = self._calculate_net_mf(cursor, candle, avg_price, money_flow)
+                net_mf = int(round(net_mf, 2))
+                
+                logging.info(f"Final calculated values - Avg: {avg_price}, MF: {money_flow}, NetMF: {net_mf}")
+            
+
                 cursor.execute('''
                     INSERT OR IGNORE INTO stock_candles 
                     (symbol, timestamp, open_price, high_price, low_price, 
-                     close_price, volume, created_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    close_price, volume, avg_price, money_flow, net_mf, created_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 ''', (
                     candle.symbol,
                     candle.timestamp.isoformat(),
@@ -86,6 +102,9 @@ class StockDatabase:
                     candle.low_price,
                     candle.close_price,
                     candle.volume,
+                    avg_price,
+                    money_flow,
+                    net_mf,
                     candle.created_at.isoformat()
                 ))
                 
@@ -102,6 +121,65 @@ class StockDatabase:
         except sqlite3.Error as e:
             logging.error(f"Error saving candle: {e}")
             return False
+
+    def _calculate_net_mf(self, cursor, candle: StockCandle, avg_price: float, money_flow: float) -> float:
+        """
+        Calculate Net MF based on the rules:
+        1. First entry of day: Compare Close vs Open
+        2. Subsequent entries: Compare current avg_price vs previous avg_price
+        3. Equal avg_prices: Use previous Net MF sign
+        """
+        try:
+            # Get the date from timestamp
+            candle_date = candle.timestamp.date()
+            
+            # Check if this is the first entry of the day
+            cursor.execute('''
+                SELECT COUNT(*) FROM stock_candles 
+                WHERE symbol = ? AND DATE(timestamp) = ?
+            ''', (candle.symbol, candle_date.isoformat()))
+            
+            day_entry_count = cursor.fetchone()[0]
+            
+            if day_entry_count == 0:
+                # First entry of the day - compare close vs open
+                if candle.close_price < candle.open_price:
+                    return -money_flow
+                else:
+                    return money_flow
+            else:
+                # Get the most recent entry for this symbol on the same day
+                cursor.execute('''
+                    SELECT avg_price, net_mf FROM stock_candles 
+                    WHERE symbol = ? AND DATE(timestamp) = ?
+                    ORDER BY timestamp DESC LIMIT 1
+                ''', (candle.symbol, candle_date.isoformat()))
+                
+                result = cursor.fetchone()
+                if result:
+                    previous_avg_price, previous_net_mf = result
+                    
+                    if avg_price > previous_avg_price:
+                        return money_flow + previous_net_mf
+                    elif avg_price < previous_avg_price:
+                        return -money_flow + previous_net_mf
+                    else:
+                        # Equal avg prices - use previous Net MF sign
+                        if previous_net_mf >= 0:
+                            return money_flow + previous_net_mf
+                        else:
+                            return -money_flow + previous_net_mf
+                else:
+                    # Fallback - shouldn't happen but just in case
+                    return money_flow
+                    
+        except Exception as e:
+            logging.error(f"Error calculating Net MF: {e}")
+            # Fallback calculation
+            if candle.close_price < candle.open_price:
+                return -money_flow
+            else:
+                return money_flow
     
     def get_latest_candle(self, symbol: str) -> Optional[StockCandle]:
         """Get the latest candle for a symbol"""
@@ -111,7 +189,7 @@ class StockDatabase:
                 
                 cursor.execute('''
                     SELECT symbol, timestamp, open_price, high_price, low_price,
-                           close_price, volume, created_at
+                       close_price, volume, avg_price, money_flow, net_mf, created_at
                     FROM stock_candles 
                     WHERE symbol = ?
                     ORDER BY timestamp DESC
@@ -128,7 +206,10 @@ class StockDatabase:
                         low_price=row[4],
                         close_price=row[5],
                         volume=row[6],
-                        created_at=datetime.fromisoformat(row[7])
+                        avg_price = row[7],
+                        money_flow = row[8],
+                        net_mf = row[9],
+                        created_at=datetime.fromisoformat(row[10])
                     )
                 return None
                 
@@ -144,7 +225,7 @@ class StockDatabase:
                 
                 cursor.execute('''
                     SELECT symbol, timestamp, open_price, high_price, low_price,
-                           close_price, volume, created_at
+                       close_price, volume, avg_price, money_flow, net_mf, created_at
                     FROM stock_candles 
                     WHERE symbol = ?
                     ORDER BY timestamp DESC
@@ -161,7 +242,10 @@ class StockDatabase:
                         low_price=row[4],
                         close_price=row[5],
                         volume=row[6],
-                        created_at=datetime.fromisoformat(row[7])
+                        avg_price = row[7],
+                        money_flow = row[8],
+                        net_mf = row[9],
+                        created_at=datetime.fromisoformat(row[10])
                     ))
                 
                 return candles

@@ -18,11 +18,23 @@ class StockCandle:
     close_price: float
     volume: int
     created_at: Optional[datetime] = None
+    created_at: Optional[datetime] = None
+    avg_price: Optional[float] = None
+    money_flow: Optional[float] = None
+    net_mf: Optional[float] = None
     
     def __post_init__(self):
         """Set created_at to current time if not provided"""
         if self.created_at is None:
             self.created_at = datetime.now()
+        
+        # Calculate avg_price if not provided
+        if self.avg_price is None:
+            self.avg_price = (self.high_price + self.low_price) / 2
+        
+        # Calculate money_flow if not provided (in thousands)
+        if self.money_flow is None:
+            self.money_flow = (self.avg_price * self.volume) / 1000
     
     def to_dict(self):
         """Convert to dictionary for database storage"""
@@ -34,12 +46,16 @@ class StockCandle:
             'low_price': self.low_price,
             'close_price': self.close_price,
             'volume': self.volume,
+            'avg_price': self.avg_price,
+            'money_flow': self.money_flow,
+            'net_mf': self.net_mf,
             'created_at': self.created_at.isoformat()
         }
     
     @classmethod
     def from_dict(cls, data):
         """Create StockCandle from dictionary"""
+        print("Incoming dictionary:", data)
         return cls(
             symbol=data['symbol'],
             timestamp=datetime.fromisoformat(data['timestamp']),
@@ -48,12 +64,20 @@ class StockCandle:
             low_price=data['low_price'],
             close_price=data['close_price'],
             volume=data['volume'],
+            avg_price=data.get('avg_price'),
+            money_flow=data.get('money_flow'),
+            net_mf=data.get('net_mf'),
             created_at=datetime.fromisoformat(data['created_at'])
         )
     
     @classmethod
     def from_yfinance_row(cls, symbol, timestamp, row):
         """Create StockCandle from yfinance data row"""
+        print("\n--- from_yfinance_row DEBUG ---")
+        print("Symbol:", symbol)
+        print("Timestamp:", timestamp)
+        print("Row data:", row.to_dict() if hasattr(row, "to_dict") else row)
+        print("--------------------------------\n")
         return cls(
             symbol=symbol,
             timestamp=timestamp,

@@ -138,7 +138,7 @@ class StockTrackerGUI:
         data_display_frame.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
         
         # Create treeview for data display
-        columns = ("Timestamp", "Open", "High", "Low", "Close", "Volume")
+        columns = ("Timestamp", "Open", "High", "Low", "Close", "Volume", "Avg", "MF", "Net MF")
         self.data_tree = ttk.Treeview(data_display_frame, columns=columns, show="headings", height=15)
         
         # Configure columns
@@ -147,6 +147,12 @@ class StockTrackerGUI:
             if col == "Timestamp":
                 self.data_tree.column(col, width=150)
             elif col == "Volume":
+                self.data_tree.column(col, width=100)
+            elif col == "Avg":
+                self.data_tree.column(col, width=100)
+            elif col == "MF":
+                self.data_tree.column(col, width=100)
+            elif col == "Net MF":
                 self.data_tree.column(col, width=100)
             else:
                 self.data_tree.column(col, width=80)
@@ -388,7 +394,10 @@ class StockTrackerGUI:
                     f"{candle.high_price:.2f}",
                     f"{candle.low_price:.2f}",
                     f"{candle.close_price:.2f}",
-                    f"{candle.volume:,}"
+                    f"{candle.volume:,}",
+                    f"{candle.avg_price:.2f}",
+                    f"{candle.money_flow:.2f}",
+                    f"{candle.net_mf:.2f}"
                 )
                 self.data_tree.insert("", 0, values=values)  # Insert at top
             
