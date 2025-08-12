@@ -110,13 +110,13 @@ class StockTrackerApp:
         try:
             print("Testing stock data connection...")
             
-            fetcher = StockDataFetcher(['AAPL'])  # Test with Apple
-            result = fetcher.fetch_latest_candle('AAPL')
+            fetcher = StockDataFetcher(['RELIANCE.NS'])  # Test with Apple
+            result = fetcher.fetch_latest_candle('RELIANCE.NS')
             
             if result.success:
                 print(f"✅ Connection test successful!")
                 print(f"   Symbol: {result.data.symbol}")
-                print(f"   Price: ${result.data.close_price:.2f}")
+                print(f"   Price: Rs{result.data.close_price:.2f}")
                 print(f"   Time: {result.data.timestamp}")
                 return True
             else:

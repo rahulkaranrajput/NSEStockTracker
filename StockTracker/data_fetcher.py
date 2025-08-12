@@ -26,8 +26,15 @@ class StockDataFetcher:
         try:
             logging.info(f"Fetching data for {symbol}")
             
-            # Create ticker object (let yfinance handle sessions)
-            ticker = yf.Ticker(symbol)
+            # Create ticker object with error handling for different yfinance versions
+            try:
+                ticker = yf.Ticker(symbol)
+            except Exception as e:
+                if "curl_cffi" in str(e):
+                    # Try with requests_cache disabled
+                    ticker = yf.Ticker(symbol)
+                else:
+                    raise
             
             # Get 5-minute data for today
             data = ticker.history(
@@ -144,49 +151,49 @@ class StockDataFetcher:
     
     def get_market_status(self) -> MarketStatus:
         """
-        Check if the market is currently open
+        Check if the Indian market is currently open
         """
         from datetime import timezone
         import pytz
         
-        # Get current time in Eastern timezone
-        et_tz = pytz.timezone('US/Eastern')
-        current_et = datetime.now(et_tz)
-        current_date = current_et.date()
-        current_time = current_et.time()
+        # Get current time in Indian timezone (IST)
+        ist_tz = pytz.timezone('Asia/Kolkata')
+        current_ist = datetime.now(ist_tz)
+        current_date = current_ist.date()
+        current_time = current_ist.time()
         current_weekday = current_date.weekday()
         
         # Check if it's a trading day (Monday=0 to Friday=4)
         is_trading_day = current_weekday in Config.TRADING_DAYS
         
-        # Check if market is open (9:30 AM to 4:00 PM ET)
+        # Check if market is open (9:15 AM to 3:30 PM IST)
         is_open = (
             is_trading_day and 
             Config.MARKET_OPEN_TIME <= current_time <= Config.MARKET_CLOSE_TIME
         )
         
         # Calculate next open/close times
-        next_open = self._calculate_next_market_open(current_et)
-        next_close = self._calculate_next_market_close(current_et) if is_open else None
+        next_open = self._calculate_next_market_open(current_ist)
+        next_close = self._calculate_next_market_close(current_ist) if is_open else None
         
         return MarketStatus(
             is_open=is_open,
             is_trading_day=is_trading_day,
-            current_time=current_et.replace(tzinfo=None),
+            current_time=current_ist.replace(tzinfo=None),
             next_open=next_open,
             next_close=next_close
         )
     
-    def _calculate_next_market_open(self, current_et) -> datetime:
-        """Calculate next market open time"""
+    def _calculate_next_market_open(self, current_ist) -> datetime:
+        """Calculate next Indian market open time"""
         import pytz
-        et_tz = pytz.timezone('US/Eastern')
+        ist_tz = pytz.timezone('Asia/Kolkata')
         
         # Start with today
-        next_date = current_et.date()
+        next_date = current_ist.date()
         
         # If market closed today, try tomorrow
-        if current_et.time() > Config.MARKET_CLOSE_TIME:
+        if current_ist.time() > Config.MARKET_CLOSE_TIME:
             next_date += timedelta(days=1)
         
         # Find next trading day
@@ -195,15 +202,15 @@ class StockDataFetcher:
         
         # Combine date and time
         next_open = datetime.combine(next_date, Config.MARKET_OPEN_TIME)
-        return et_tz.localize(next_open).replace(tzinfo=None)
+        return ist_tz.localize(next_open).replace(tzinfo=None)
     
-    def _calculate_next_market_close(self, current_et) -> datetime:
-        """Calculate next market close time (only if market is open)"""
+    def _calculate_next_market_close(self, current_ist) -> datetime:
+        """Calculate next Indian market close time (only if market is open)"""
         import pytz
-        et_tz = pytz.timezone('US/Eastern')
+        ist_tz = pytz.timezone('Asia/Kolkata')
         
-        next_close = datetime.combine(current_et.date(), Config.MARKET_CLOSE_TIME)
-        return et_tz.localize(next_close).replace(tzinfo=None)
+        next_close = datetime.combine(current_ist.date(), Config.MARKET_CLOSE_TIME)
+        return ist_tz.localize(next_close).replace(tzinfo=None)
     
     def validate_symbol(self, symbol: str) -> bool:
         """

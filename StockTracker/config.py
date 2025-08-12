@@ -8,24 +8,27 @@ class Config:
     # Database settings
     DATABASE_PATH = os.path.join(os.path.dirname(__file__), 'data', 'stocks.db')
     
-    # Stock symbols to track (you can modify this list)
+    # Stock symbols to track - Indian Market (NSE)
     STOCK_SYMBOLS = [
-        'AAPL',   # Apple
-        'GOOGL',  # Google
-        'MSFT',   # Microsoft
-        'TSLA',   # Tesla
-        'AMZN',   # Amazon
-        'NVDA',   # NVIDIA
-        'META',   # Meta (Facebook)
+        'RELIANCE.NS',  # Reliance Industries
+        'TCS.NS',       # Tata Consultancy Services
+        'INFY.NS',      # Infosys
+        'HDFCBANK.NS',  # HDFC Bank
+        'ICICIBANK.NS', # ICICI Bank
+        'HINDUNILVR.NS',# Hindustan Unilever
+        'ITC.NS',       # ITC Limited
+        'SBIN.NS',      # State Bank of India
+        'BHARTIARTL.NS',# Bharti Airtel
+        'LT.NS',        # Larsen & Toubro
     ]
     
     # Data fetching settings
     FETCH_INTERVAL_MINUTES = 5  # Fetch data every 5 minutes
     DATA_INTERVAL = '5m'        # 5-minute candles
     
-    # Market hours (Eastern Time)
-    MARKET_OPEN_TIME = time(9, 30)   # 9:30 AM ET
-    MARKET_CLOSE_TIME = time(16, 0)   # 4:00 PM ET
+    # Market hours (Indian Standard Time - IST)
+    MARKET_OPEN_TIME = time(9, 15)   # 9:15 AM IST
+    MARKET_CLOSE_TIME = time(15, 30)  # 3:30 PM IST
     
     # Trading days (0=Monday, 6=Sunday)
     TRADING_DAYS = [0, 1, 2, 3, 4]  # Monday to Friday
