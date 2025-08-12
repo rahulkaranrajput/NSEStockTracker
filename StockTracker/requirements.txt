@@ -2,8 +2,13 @@
 # Core dependencies
 yfinance>=0.2.18
 pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
 schedule>=1.2.0
 pytz>=2023.3
+
+# Required for latest yfinance
+curl_cffi>=0.5.10
 
 # GUI dependencies (Tkinter is built-in)
 

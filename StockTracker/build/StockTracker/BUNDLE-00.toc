@@ -1,0 +1,3 @@
+([('StockTracker',
+   '/Users/rahulk/Desktop/Personal/Projects/Python/MacOS/Stock/StockTracker/dist/StockTracker',
+   'EXECUTABLE')],)

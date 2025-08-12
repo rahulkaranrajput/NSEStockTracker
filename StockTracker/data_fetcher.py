@@ -16,18 +16,8 @@ class StockDataFetcher:
     
     def __init__(self, symbols: List[str] = None):
         self.symbols = symbols or Config.STOCK_SYMBOLS
-        self.session = None
-        self._init_session()
-        
-    def _init_session(self):
-        """Initialize yfinance session for better performance"""
-        try:
-            # Create a session for reuse
-            import requests
-            self.session = requests.Session()
-            logging.info("Data fetcher initialized successfully")
-        except Exception as e:
-            logging.warning(f"Could not initialize session: {e}")
+        self.session = None  # Let yfinance handle sessions internally
+        logging.info("Data fetcher initialized successfully")
     
     def fetch_latest_candle(self, symbol: str) -> FetchResult:
         """
@@ -36,8 +26,8 @@ class StockDataFetcher:
         try:
             logging.info(f"Fetching data for {symbol}")
             
-            # Create ticker object
-            ticker = yf.Ticker(symbol, session=self.session)
+            # Create ticker object (let yfinance handle sessions)
+            ticker = yf.Ticker(symbol)
             
             # Get 5-minute data for today
             data = ticker.history(
@@ -92,7 +82,7 @@ class StockDataFetcher:
         Fetch historical 5-minute candles for a symbol
         """
         try:
-            ticker = yf.Ticker(symbol, session=self.session)
+            ticker = yf.Ticker(symbol)  # Let yfinance handle sessions
             
             # Calculate period
             if days <= 1:
@@ -220,7 +210,7 @@ class StockDataFetcher:
         Validate if a stock symbol exists
         """
         try:
-            ticker = yf.Ticker(symbol, session=self.session)
+            ticker = yf.Ticker(symbol)  # Let yfinance handle sessions
             info = ticker.info
             
             # Check if we got valid info
@@ -269,7 +259,7 @@ class StockDataFetcher:
         Get basic information about a symbol
         """
         try:
-            ticker = yf.Ticker(symbol, session=self.session)
+            ticker = yf.Ticker(symbol)  # Let yfinance handle sessions
             info = ticker.info
             
             return {
