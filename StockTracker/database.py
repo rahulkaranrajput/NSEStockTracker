@@ -76,11 +76,12 @@ class StockDatabase:
             with sqlite3.connect(self.db_path) as conn:
                 cursor = conn.cursor()
 
+                vol = int(candle.volume/1000)
                 # Calculate avg_price
                 avg_price = int(round((candle.high_price + candle.low_price) / 2, 2))
             
                 # Calculate money_flow
-                money_flow = int(round((avg_price * candle.volume) / 1000, 2))
+                money_flow = int(round((avg_price * vol) / 1000, 2))
                 
                 # Calculate net_mf - need to check previous entries
                 net_mf = self._calculate_net_mf(cursor, candle, avg_price, money_flow)
@@ -101,7 +102,7 @@ class StockDatabase:
                     candle.high_price,
                     candle.low_price,
                     candle.close_price,
-                    candle.volume,
+                    vol,
                     avg_price,
                     money_flow,
                     net_mf,
