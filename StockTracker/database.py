@@ -102,7 +102,7 @@ class StockDatabase:
                     candle.high_price,
                     candle.low_price,
                     candle.close_price,
-                    vol,
+                    candle.volume,
                     avg_price,
                     money_flow,
                     net_mf,
